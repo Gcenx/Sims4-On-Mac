@@ -3,8 +3,8 @@ WINE REGISTRY Version 2
 
 #arch=win64
 
-[Software\\Microsoft\\Windows\\CurrentVersion\\Explorer\\Shell Folders] 1659660945
-#time=1d8a8661817d5b2
+[Software\\Microsoft\\Windows\\CurrentVersion\\Explorer\\Shell Folders] 1659673387
+#time=1d8a88310002ce0
 "Administrative Tools"="C:\\users\\zoeycluff\\Start Menu\\Programs\\Administrative Tools"
 "AppData"="C:\\users\\zoeycluff\\Application Data"
 "Cache"="C:\\users\\zoeycluff\\Local Settings\\Temporary Internet Files"
@@ -33,8 +33,8 @@ WINE REGISTRY Version 2
 "{A520A1A4-1780-4FF6-BD18-167343C5AF16}"="C:\\users\\zoeycluff\\AppData\\LocalLow"
 "{BFB9D5E0-C6A9-404C-B2B2-AE6DB6AF4968}"="C:\\users\\zoeycluff\\Links"
 
-[Software\\Microsoft\\Windows\\CurrentVersion\\Explorer\\User Shell Folders] 1659660945
-#time=1d8a8661817c6b2
+[Software\\Microsoft\\Windows\\CurrentVersion\\Explorer\\User Shell Folders] 1659673387
+#time=1d8a88310002056
 "Administrative Tools"=str(2):"%USERPROFILE%\\Start Menu\\Programs\\Administrative Tools"
 "AppData"=str(2):"%USERPROFILE%\\Application Data"
 "Cache"=str(2):"%USERPROFILE%\\Local Settings\\Temporary Internet Files"

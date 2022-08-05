@@ -29,9 +29,9 @@ if [ "$isWorkingEnv" != "0" ]; then
     chmod +x ${PWD}/${WINESKIN_TARGET_NAME}/Wineskin.app/Contents/Resources/winetricks &>/dev/null
 fi
 
-echo "==> Installing proprietary dependencies..."
+echo "==> Installing proprietary dependencies and Origin..."
 install_deps
 echo "==> Finished installing dependencies."
 
 echo "==> Moving Sims4.app to your Applications folder"
-cp -r -P ${PWD}/${WINESKIN_TARGET_NAME}/ /Applications/
+sudo rsync -l -a -r ${PWD}/${WINESKIN_TARGET_NAME}/ /Applications/Sims4.app

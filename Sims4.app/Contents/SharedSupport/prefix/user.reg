@@ -3,32 +3,32 @@ WINE REGISTRY Version 2
 
 #arch=win64
 
-[AppEvents\\Schemes\\Apps\\Explorer\\Navigating\\.Current] 1659660946
-#time=1d8a86618de706e
+[AppEvents\\Schemes\\Apps\\Explorer\\Navigating\\.Current] 1659673388
+#time=1d8a88310adb928
 @=""
 
-[Control Panel\\Accessibility\\AudioDescription] 1659660942
-#time=1d8a86616a5dd00
+[Control Panel\\Accessibility\\AudioDescription] 1659673384
+#time=1d8a8830ea78e38
 "Locale"=dword:00000000
 "On"="0"
 
-[Control Panel\\Accessibility\\Blind Access] 1659660942
-#time=1d8a86616a5d2e2
+[Control Panel\\Accessibility\\Blind Access] 1659673384
+#time=1d8a8830ea78050
 "On"="0"
 
-[Control Panel\\Accessibility\\Keyboard Preference] 1659660942
-#time=1d8a86616a5c090
+[Control Panel\\Accessibility\\Keyboard Preference] 1659673384
+#time=1d8a8830ea76eda
 "On"="1"
 
-[Control Panel\\Accessibility\\ShowSounds] 1659660942
-#time=1d8a86616a5d4fe
+[Control Panel\\Accessibility\\ShowSounds] 1659673384
+#time=1d8a8830ea783f2
 "On"="0"
 
-[Control Panel\\Colors] 1659660943
-#time=1d8a86616f5581c
+[Control Panel\\Colors] 1659673385
+#time=1d8a8830eeed1ee
 
-[Control Panel\\Desktop] 1659660957
-#time=1d8a8661f394bb4
+[Control Panel\\Desktop] 1659673399
+#time=1d8a88317bee4b2
 "ActiveWndTrackTimeout"=dword:00000000
 "BlockSendInputResets"="0"
 "CaretWidth"=dword:00000001
@@ -54,8 +54,8 @@ WINE REGISTRY Version 2
 "WheelScrollChars"="3"
 "WheelScrollLines"="3"
 
-[Control Panel\\Desktop\\WindowMetrics] 1659660942
-#time=1d8a86616a5d620
+[Control Panel\\Desktop\\WindowMetrics] 1659673384
+#time=1d8a8830ea78852
 "BorderWidth"="-15"
 "CaptionHeight"="-270"
 "CaptionWidth"="-270"
@@ -70,8 +70,8 @@ WINE REGISTRY Version 2
 "SmCaptionHeight"="-225"
 "SmCaptionWidth"="-225"
 
-[Control Panel\\International] 1659660942
-#time=1d8a866165e578c
+[Control Panel\\International] 1659673384
+#time=1d8a8830e515568
 "iCalendarType"="1"
 "iCountry"="1"
 "iCurrDigits"="2"
@@ -114,17 +114,17 @@ WINE REGISTRY Version 2
 "sTimeFormat"="h:mm:ss tt"
 "sYearMonth"="MMMM, yyyy"
 
-[Control Panel\\International\\Geo] 1659660942
-#time=1d8a866165e3f18
+[Control Panel\\International\\Geo] 1659673384
+#time=1d8a8830e5134ac
 "Nation"="244"
 
-[Control Panel\\Keyboard] 1659660942
-#time=1d8a86616a5c18a
+[Control Panel\\Keyboard] 1659673384
+#time=1d8a8830ea7702e
 "KeyboardDelay"="1"
 "KeyboardSpeed"="31"
 
-[Control Panel\\Mouse] 1659660942
-#time=1d8a86616a5d774
+[Control Panel\\Mouse] 1659673384
+#time=1d8a8830ea78906
 "ActiveWindowTracking"=dword:00000000
 "DoubleClickHeight"="4"
 "DoubleClickSpeed"="500"
@@ -139,32 +139,32 @@ WINE REGISTRY Version 2
 "SnapToDefaultButton"="0"
 "SwapMouseButtons"="0"
 
-[Control Panel\\Sound] 1659660942
-#time=1d8a86616a5a0b0
+[Control Panel\\Sound] 1659673384
+#time=1d8a8830ea745cc
 "Beep"="Yes"
 
-[Environment] 1659660945
-#time=1d8a866181998ac
+[Environment] 1659673387
+#time=1d8a8831001abe2
 "TEMP"="C:\\users\\zoeycluff\\Temp"
 "TMP"="C:\\users\\zoeycluff\\Temp"
 
-[Software\\Microsoft\\Internet Explorer\\Main] 1659660946
-#time=1d8a86618d87ac4
+[Software\\Microsoft\\Internet Explorer\\Main] 1659673388
+#time=1d8a88310a9389e
 "Search Page"="https://www.google.com"
 "Start Page"="https://www.winehq.org"
 
-[Software\\Microsoft\\Internet Explorer\\Main\\FeatureControl] 1659660944
-#time=1d8a86617fc6d18
+[Software\\Microsoft\\Internet Explorer\\Main\\FeatureControl] 1659673386
+#time=1d8a8830fe8159c
 
-[Software\\Microsoft\\Internet Explorer\\Settings] 1659660946
-#time=1d8a86618d87c36
+[Software\\Microsoft\\Internet Explorer\\Settings] 1659673388
+#time=1d8a88310a939d4
 "Text Color"="0,0,0"
 
-[Software\\Microsoft\\Protected Storage System Provider] 1659660946
-#time=1d8a86618de70fa
+[Software\\Microsoft\\Protected Storage System Provider] 1659673388
+#time=1d8a88310adb9aa
 
-[Software\\Microsoft\\Windows\\CurrentVersion\\Explorer\\Shell Folders] 1659660945
-#time=1d8a86618183494
+[Software\\Microsoft\\Windows\\CurrentVersion\\Explorer\\Shell Folders] 1659673387
+#time=1d8a88310008fd2
 "Administrative Tools"="C:\\users\\zoeycluff\\Start Menu\\Programs\\Administrative Tools"
 "AppData"="C:\\users\\zoeycluff\\Application Data"
 "Cache"="C:\\users\\zoeycluff\\Local Settings\\Temporary Internet Files"
@@ -193,8 +193,8 @@ WINE REGISTRY Version 2
 "{A520A1A4-1780-4FF6-BD18-167343C5AF16}"="C:\\users\\zoeycluff\\AppData\\LocalLow"
 "{BFB9D5E0-C6A9-404C-B2B2-AE6DB6AF4968}"="C:\\users\\zoeycluff\\Links"
 
-[Software\\Microsoft\\Windows\\CurrentVersion\\Explorer\\User Shell Folders] 1659660945
-#time=1d8a8661818323c
+[Software\\Microsoft\\Windows\\CurrentVersion\\Explorer\\User Shell Folders] 1659673387
+#time=1d8a88310008d16
 "Administrative Tools"=str(2):"%USERPROFILE%\\Start Menu\\Programs\\Administrative Tools"
 "AppData"=str(2):"%USERPROFILE%\\Application Data"
 "Cache"=str(2):"%USERPROFILE%\\Local Settings\\Temporary Internet Files"
@@ -223,23 +223,23 @@ WINE REGISTRY Version 2
 "{A520A1A4-1780-4FF6-BD18-167343C5AF16}"=str(2):"%USERPROFILE%\\AppData\\LocalLow"
 "{BFB9D5E0-C6A9-404C-B2B2-AE6DB6AF4968}"=str(2):"%USERPROFILE%\\Links"
 
-[Software\\Microsoft\\Windows\\CurrentVersion\\Internet Settings] 1659660945
-#time=1d8a866186194f4
+[Software\\Microsoft\\Windows\\CurrentVersion\\Internet Settings] 1659673387
+#time=1d8a88310358584
 "User Agent"="Mozilla/4.0 (compatible; MSIE 8.0; Win32)"
 
-[Software\\Microsoft\\Windows\\CurrentVersion\\Internet Settings\\ZoneMap] 1659660945
-#time=1d8a86618619314
+[Software\\Microsoft\\Windows\\CurrentVersion\\Internet Settings\\ZoneMap] 1659673387
+#time=1d8a88310358192
 @=""
 "IntranetName"=dword:00000001
 "ProxyByPass"=dword:00000001
 "UNCAsIntranet"=dword:00000001
 
-[Software\\Microsoft\\Windows\\CurrentVersion\\Internet Settings\\ZoneMap\\Domains] 1659660945
-#time=1d8a8661861918e
+[Software\\Microsoft\\Windows\\CurrentVersion\\Internet Settings\\ZoneMap\\Domains] 1659673387
+#time=1d8a88310357ed6
 @=""
 
-[Software\\Microsoft\\Windows\\CurrentVersion\\Internet Settings\\ZoneMap\\ProtocolDefaults] 1659660945
-#time=1d8a86618618fb8
+[Software\\Microsoft\\Windows\\CurrentVersion\\Internet Settings\\ZoneMap\\ProtocolDefaults] 1659673387
+#time=1d8a88310357c88
 @=""
 "@ivt"=dword:00000001
 "file"=dword:00000003
@@ -247,16 +247,16 @@ WINE REGISTRY Version 2
 "http"=dword:00000003
 "https"=dword:00000003
 
-[Software\\Microsoft\\Windows\\CurrentVersion\\Internet Settings\\ZoneMap\\Ranges] 1659660945
-#time=1d8a86618619364
+[Software\\Microsoft\\Windows\\CurrentVersion\\Internet Settings\\ZoneMap\\Ranges] 1659673387
+#time=1d8a88310358246
 @=""
 
-[Software\\Microsoft\\Windows\\CurrentVersion\\Internet Settings\\Zones] 1659660945
-#time=1d8a86618637be8
+[Software\\Microsoft\\Windows\\CurrentVersion\\Internet Settings\\Zones] 1659673387
+#time=1d8a8831037bc64
 @=""
 
-[Software\\Microsoft\\Windows\\CurrentVersion\\Internet Settings\\Zones\\0] 1659660945
-#time=1d8a8661861ec74
+[Software\\Microsoft\\Windows\\CurrentVersion\\Internet Settings\\Zones\\0] 1659673387
+#time=1d8a883103637f4
 @=""
 "1001"=dword:00000000
 "1004"=dword:00000000
@@ -294,8 +294,8 @@ WINE REGISTRY Version 2
 "Flags"=dword:00000021
 "Icon"="explorer.exe#0100"
 
-[Software\\Microsoft\\Windows\\CurrentVersion\\Internet Settings\\Zones\\1] 1659660945
-#time=1d8a86618628df0
+[Software\\Microsoft\\Windows\\CurrentVersion\\Internet Settings\\Zones\\1] 1659673387
+#time=1d8a8831036d42a
 @=""
 "1001"=dword:00000001
 "1004"=dword:00000003
@@ -335,8 +335,8 @@ WINE REGISTRY Version 2
 "MinLevel"=dword:00010000
 "RecommendedLevel"=dword:00010500
 
-[Software\\Microsoft\\Windows\\CurrentVersion\\Internet Settings\\Zones\\2] 1659660945
-#time=1d8a86618631e64
+[Software\\Microsoft\\Windows\\CurrentVersion\\Internet Settings\\Zones\\2] 1659673387
+#time=1d8a883103745c2
 @=""
 "1001"=dword:00000000
 "1004"=dword:00000001
@@ -376,8 +376,8 @@ WINE REGISTRY Version 2
 "MinLevel"=dword:00010000
 "RecommendedLevel"=dword:00010000
 
-[Software\\Microsoft\\Windows\\CurrentVersion\\Internet Settings\\Zones\\3] 1659660945
-#time=1d8a86618637a08
+[Software\\Microsoft\\Windows\\CurrentVersion\\Internet Settings\\Zones\\3] 1659673387
+#time=1d8a8831037ba8e
 @=""
 "1001"=dword:00000001
 "1004"=dword:00000003
@@ -417,8 +417,8 @@ WINE REGISTRY Version 2
 "MinLevel"=dword:00011000
 "RecommendedLevel"=dword:00011000
 
-[Software\\Microsoft\\Windows\\CurrentVersion\\Internet Settings\\Zones\\4] 1659660945
-#time=1d8a8661863de26
+[Software\\Microsoft\\Windows\\CurrentVersion\\Internet Settings\\Zones\\4] 1659673387
+#time=1d8a88310381c18
 @=""
 "1001"=dword:00000003
 "1004"=dword:00000003
@@ -458,57 +458,57 @@ WINE REGISTRY Version 2
 "MinLevel"=dword:00012000
 "RecommendedLevel"=dword:00012000
 
-[Software\\Microsoft\\Windows\\CurrentVersion\\Run] 1659660946
-#time=1d8a86618dccde0
+[Software\\Microsoft\\Windows\\CurrentVersion\\Run] 1659673388
+#time=1d8a88310aca9f2
 
-[Software\\Microsoft\\Windows\\Shell\\Associations\\UrlAssociations\\ftp\\UserChoice] 1659660946
-#time=1d8a86618de8c34
+[Software\\Microsoft\\Windows\\Shell\\Associations\\UrlAssociations\\ftp\\UserChoice] 1659673388
+#time=1d8a88310add37c
 "ProgId"="ftp"
 
-[Software\\Microsoft\\Windows\\Shell\\Associations\\UrlAssociations\\http\\UserChoice] 1659660946
-#time=1d8a86618de9152
+[Software\\Microsoft\\Windows\\Shell\\Associations\\UrlAssociations\\http\\UserChoice] 1659673388
+#time=1d8a88310add85e
 "ProgId"="http"
 
-[Software\\Microsoft\\Windows\\Shell\\Associations\\UrlAssociations\\https\\UserChoice] 1659660946
-#time=1d8a86618de980a
+[Software\\Microsoft\\Windows\\Shell\\Associations\\UrlAssociations\\https\\UserChoice] 1659673388
+#time=1d8a88310adde62
 "ProgId"="https"
 
-[Software\\Microsoft\\Windows NT\\CurrentVersion\\Devices] 1659660945
-#time=1d8a86618449cb4
+[Software\\Microsoft\\Windows NT\\CurrentVersion\\Devices] 1659673387
+#time=1d8a883102721c4
 "EPSON_XP_630_Series"="wineps.drv,CUPS:EPSON_XP_630_Series"
 
-[Software\\Microsoft\\Windows NT\\CurrentVersion\\PrinterPorts] 1659660945
-#time=1d8a86618449dd6
+[Software\\Microsoft\\Windows NT\\CurrentVersion\\PrinterPorts] 1659673387
+#time=1d8a8831027239a
 "EPSON_XP_630_Series"="wineps.drv,CUPS:EPSON_XP_630_Series,15,45"
 
-[Software\\Microsoft\\Windows NT\\CurrentVersion\\Windows] 1659660945
-#time=1d8a8661844f376
+[Software\\Microsoft\\Windows NT\\CurrentVersion\\Windows] 1659673387
+#time=1d8a88310276882
 "device"="EPSON_XP_630_Series,wineps.drv,CUPS:EPSON_XP_630_Series"
 
-[Software\\Microsoft\\Windows NT\\CurrentVersion\\Winlogon] 1659660946
-#time=1d8a86618dcceb2
+[Software\\Microsoft\\Windows NT\\CurrentVersion\\Winlogon] 1659673388
+#time=1d8a88310acaaba
 
-[Software\\Wine\\AppDefaults] 1659660947
-#time=1d8a86619491db0
+[Software\\Wine\\AppDefaults] 1659673388
+#time=1d8a88310ddddba
 
-[Software\\Wine\\Debug] 1659660946
-#time=1d8a86618ddb20a
+[Software\\Wine\\Debug] 1659673388
+#time=1d8a88310ad1f54
 "RelayExclude"="ntdll.RtlEnterCriticalSection;ntdll.RtlTryEnterCriticalSection;ntdll.RtlLeaveCriticalSection;kernel32.48;kernel32.49;kernel32.94;kernel32.95;kernel32.96;kernel32.97;kernel32.98;kernel32.TlsGetValue;kernel32.TlsSetValue;kernel32.FlsGetValue;kernel32.FlsSetValue;kernel32.SetLastError"
 "RelayFromExclude"="winex11.drv;winemac.drv;user32;gdi32;advapi32;kernel32"
 
-[Software\\Wine\\Direct3D] 1659660957
-#time=1d8a8661f394d80
+[Software\\Wine\\Direct3D] 1659673399
+#time=1d8a88317bee5f2
 
-[Software\\Wine\\DllOverrides] 1659660957
-#time=1d8a8661f394ef2
+[Software\\Wine\\DllOverrides] 1659673399
+#time=1d8a88317bee746
 
-[Software\\Wine\\Fonts] 1659660955
-#time=1d8a8661e7e1b3c
+[Software\\Wine\\Fonts] 1659673398
+#time=1d8a883172491c8
 "Codepages"="1252,437"
 "LogPixels"=dword:00000060
 
-[Software\\Wine\\Fonts\\External Fonts] 1659660955
-#time=1d8a8661e80ae24
+[Software\\Wine\\Fonts\\External Fonts] 1659673399
+#time=1d8a883172695ae
 "3270 Narrow (TrueType)"="Z:\\Users\\zoeycluff\\Library\\Fonts\\3270Narrow.ttf"
 "3270 Semi-Narrow (TrueType)"="Z:\\Users\\zoeycluff\\Library\\Fonts\\3270SemiNarrow.ttf"
 "3270-Medium (TrueType)"="Z:\\Users\\zoeycluff\\Library\\Fonts\\3270Medium.ttf"
@@ -893,7 +893,7 @@ WINE REGISTRY Version 2
 "Malayalam Sangam MN Bold (TrueType)"="Z:\\System\\Library\\Fonts\\Supplemental\\Malayalam Sangam MN.ttc"
 "Marker Felt Thin (TrueType)"="Z:\\System\\Library\\Fonts\\MarkerFelt.ttc"
 "Marker Felt Wide (TrueType)"="Z:\\System\\Library\\Fonts\\MarkerFelt.ttc"
-"Marlett (TrueType)"="Z:\\private\\tmp\\Origin.app\\Contents\\SharedSupport\\wine\\share\\wine\\fonts\\marlett.ttf"
+"Marlett (TrueType)"="Z:\\private\\tmp\\MyCoolWrapper.app\\Contents\\SharedSupport\\wine\\share\\wine\\fonts\\marlett.ttf"
 "Menlo Bold (TrueType)"="Z:\\System\\Library\\Fonts\\Menlo.ttc"
 "Menlo Bold Italic (TrueType)"="Z:\\System\\Library\\Fonts\\Menlo.ttc"
 "Menlo Italic (TrueType)"="Z:\\System\\Library\\Fonts\\Menlo.ttc"
@@ -1127,7 +1127,7 @@ WINE REGISTRY Version 2
 "SukhumvitSet-SemiBold (TrueType)"="Z:\\System\\Library\\Fonts\\Supplemental\\SukhumvitSet.ttc"
 "SukhumvitSet-Text (TrueType)"="Z:\\System\\Library\\Fonts\\Supplemental\\SukhumvitSet.ttc"
 "SukhumvitSet-Thin (TrueType)"="Z:\\System\\Library\\Fonts\\Supplemental\\SukhumvitSet.ttc"
-"Symbol (TrueType)"="Z:\\private\\tmp\\Origin.app\\Contents\\SharedSupport\\wine\\share\\wine\\fonts\\symbol.ttf"
+"Symbol (TrueType)"="Z:\\private\\tmp\\MyCoolWrapper.app\\Contents\\SharedSupport\\wine\\share\\wine\\fonts\\symbol.ttf"
 "Symbol Neu for Powerline (TrueType)"="Z:\\Users\\zoeycluff\\Library\\Fonts\\Symbol Neu for Powerline.ttf"
 "Tahoma (TrueType)"="Z:\\System\\Library\\Fonts\\Supplemental\\Tahoma.ttf"
 "Tahoma Bold (TrueType)"="Z:\\System\\Library\\Fonts\\Supplemental\\Tahoma Bold.ttf"
@@ -1172,15 +1172,15 @@ WINE REGISTRY Version 2
 "Zapf Dingbats (TrueType)"="Z:\\System\\Library\\Fonts\\ZapfDingbats.ttf"
 "Zapfino (TrueType)"="Z:\\System\\Library\\Fonts\\Supplemental\\Zapfino.ttf"
 
-[Software\\Wine\\Fonts\\Replacements] 1659660946
-#time=1d8a86618de0bb0
+[Software\\Wine\\Fonts\\Replacements] 1659673388
+#time=1d8a88310ad5636
 "Gulim"="NanumGothic"
 "MS UI Gothic"="Ume UI Gothic"
 "PMingLiU"="STSong"
 "SimSun"="STSong"
 
-[Software\\Wine\\Mac Driver] 1659660957
-#time=1d8a8661f3954ba
+[Software\\Wine\\Mac Driver] 1659673399
+#time=1d8a88317beeb38
 "LeftCommandIsCtrl"="Y"
 "LeftOptionIsAlt"="Y"
 "RightCommandIsCtrl"="Y"
