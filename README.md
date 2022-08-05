@@ -12,7 +12,12 @@ Open Terminal and copy/paste the following command (entire line)
 ```
 type 4 in the menu and hit enter, it in theory should handle the rest.
 
+
+# Support
+[Join the Sims4 on mac Discord here](https://discord.gg/hYC9VDdU)
+
 # Special Thanks
+
 <h6><a href="https://github.com/Gcenx">Gcenx</a> - for keeping wine single-handedly alive on macOS and helping get the installer script working with his custom winetricks<br>
 
 <div align="center"><b>The Sims 4 and Origin are registered trademarks of Electronic Arts</b></div>
