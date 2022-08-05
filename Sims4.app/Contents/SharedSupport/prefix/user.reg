@@ -1188,7 +1188,6 @@ WINE REGISTRY Version 2
 
 
 
-
 [Software\\Wine\\X11 Driver]
 "Decorated"="N"
 "Managed"="N"

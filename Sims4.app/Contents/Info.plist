@@ -22,7 +22,7 @@
 	<key>CFBundleIconFile</key>
 	<string>Wineskin.icns</string>
 	<key>CFBundleIdentifier</key>
-	<string>com.Origincopy303605788.wineskin</string>
+	<string>com.Origin256344504.wineskin</string>
 	<key>CFBundleInfoDictionaryVersion</key>
 	<string>1.0</string>
 	<key>CFBundleName</key>
@@ -81,7 +81,7 @@
 	<key>Program Name and Path</key>
 	<string>/Program Files (x86)/Origin/Origin.exe</string>
 	<key>Resolution</key>
-	<string>novdx24sleep72909016</string>
+	<string>novdx24sleep40112344</string>
 	<key>Skip Gecko</key>
 	<string>0</string>
 	<key>Skip Mono</key>
@@ -101,7 +101,7 @@
 	<key>Symlink Templates</key>
 	<string>$HOME/Templates</string>
 	<key>Symlinks In User Folder</key>
-	<false/>
+	<true/>
 	<key>Try To Use GPU Info</key>
 	<integer>0</integer>
 	<key>Use RandR</key>

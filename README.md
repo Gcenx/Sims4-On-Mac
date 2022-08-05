@@ -4,7 +4,8 @@ A set of scripts to bootstrap a working Sims 4 Windows install on MacOS from a b
 # Install steps
 Open Terminal and copy/paste the following command (entire line)
 ```
-/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/ZoeyCluff/Sims4-wineskin-build/master/install.sh)"
+git clone https://github.com/ZoeyCluff/Sims4-wineskin-build.git && bash ./Sims4-wineskin-build/install.command
+
 ```
 and follow the directions.
 

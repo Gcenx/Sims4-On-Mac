@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env arch -x86_64 bash
 
 WINESKIN_TARGET_NAME="Sims4.app"
 
@@ -15,6 +15,9 @@ export DYLD_FALLBACK_LIBRARY_PATH="${WINETRICKS_FALLBACK_LIBRARY_PATH}"
 
 export WINEPREFIX="${PWD}/${WINESKIN_TARGET_NAME}/"
 
+echo "==> Removing Gatekeeper quarantine from downloaded wrapper. You may need to enter your password."
+sudo xattr -drs com.apple.quarantine "${PWD}/${WINESKIN_TARGET_NAME}" &>/dev/null
+
 function install_deps() {
     echo "===> Installing dotnet48"
 	winetricks -q -f dotnet48 &>/dev/null
@@ -24,7 +27,7 @@ function install_deps() {
 	winetricks -q vcrun2012 &>/dev/null
     echo "===> Installing vcrun2010"
 	winetricks -q vcrun2010 &>/dev/null
-    echo "===> Installing windows Core Fonts"
+    echo "===> Installing Windows Core Fonts"
   winetricks -q corefonts &>/dev/null
 
 }
@@ -50,6 +53,4 @@ curl -o  ${PWD}/${WINESKIN_TARGET_NAME}/drive_c/OriginThinSetup.exe https://orig
 wine ${PWD}/${WINESKIN_TARGET_NAME}/drive_c/OriginThinSetup.exe
 
 echo "==> Moving Sims4.app to your Applications folder"
-mv ${PWD}/Sims4.app /Applications/
-echo "==> Removing Gatekeeper quarantine from downloaded wrapper. You may need to enter your password."
-sudo xattr -drs com.apple.quarantine "/Applications/Sims4.app" &>/dev/null
+cp ${PWD}/Sims4.app /Applications/
