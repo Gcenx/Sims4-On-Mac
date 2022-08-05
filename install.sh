@@ -28,8 +28,6 @@ fi
 
 
 
-echo "===> Setting Windows 7"
-winetricks win7
 echo "===> Installing Origin"
 winetricks -q -f origin
 
