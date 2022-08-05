@@ -2,7 +2,7 @@
 A set of scripts to bootstrap a working Sims 4 Windows install on MacOS from a blank Wineskin wrapper. Removes the requirement to purchase [Crossover](https://www.codeweavers.com/crossover#mac) to use GShade.
 
 # Install steps
-Download Sims4-wineskin.zip from the Release page, Unzip the archive and double click install.command.
+Download Sims4WinonMac.zip from the Release page, Unzip the archive and double click install.command.
 and follow the directions.
 
 # To install GShade
