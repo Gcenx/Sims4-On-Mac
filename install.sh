@@ -53,4 +53,4 @@ curl -o  ${PWD}/${WINESKIN_TARGET_NAME}/drive_c/OriginThinSetup.exe https://orig
 wine ${PWD}/${WINESKIN_TARGET_NAME}/drive_c/OriginThinSetup.exe
 
 echo "==> Moving Sims4.app to your Applications folder"
-cp ${PWD}/Sims4.app /Applications/
+cp -r -P ${PWD}/Sims4.app/ /Applications/
