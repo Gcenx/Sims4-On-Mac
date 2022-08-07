@@ -1,0 +1,11 @@
+Executing mkdir -p /Users/zoeycluff/Nextcloud2/Projects/Sims4-wineskin-build/Sims4.app/Contents/SharedSupport
+------------------------------------------------------
+warning: You are using a 64-bit WINEPREFIX. Note that many verbs only install 32-bit versions of packages. If you encounter problems, please retest in a clean 32-bit WINEPREFIX before reporting a bug.
+------------------------------------------------------
+Using winetricks 20220411-next - sha256sum: 8aa881927ca0abc50a10588aaf176fcc4d00ed19e959f80b54301434235af443 with wine-6.0.2 (WineskinCX 21.2.0) and WINEARCH=win64
+Executing w_do_call steam
+Executing mkdir -p /Users/zoeycluff/Nextcloud2/Projects/Sims4-wineskin-build/Sims4.app/Contents/SharedSupport
+------------------------------------------------------
+warning: You are using a 64-bit WINEPREFIX. Note that many verbs only install 32-bit versions of packages. If you encounter problems, please retest in a clean 32-bit WINEPREFIX before reporting a bug.
+------------------------------------------------------
+steam already installed, skipping

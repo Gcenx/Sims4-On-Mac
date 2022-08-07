@@ -19,16 +19,33 @@ chmod +x ${PWD}/${WINESKIN_TARGET_NAME}/Wineskin.app/Contents/Resources/winetric
 
 
 # Failsafe as git doesn't remove even empty directories
-rm -rf ${WINEPREFIX} &>/dev/null
+# rm -rf ${WINEPREFIX} &>/dev/null
 
 echo "===> Creating wineprefix"
-wineboot
+# wineboot
 
-echo "===> Installing Origin"
-winetricks -q -f origin
+while true; do
+  read -p "===> Do you own Sims4 through Steam or Origin? Please Type the Origin or Steam and hit Enter: " -r platform
+  case $platform in
+    Origin | origin ) platform=origin; break;;
+    Steam | steam ) platform=steam; break;;
+    * ) printf "Invalid option.\n";;
+  esac
+done
 
-# override_dll function example
-#override_dll d3dcompiler_47
+if [ $platform == origin ]
+  then
+    echo "===> Installing Origin"
+    winetricks -q -f origin
+    cp ./configs/Origin.plist ./Sims4.app/Contents/Info.plist
+  elif [ $platform == steam ]
+  then
+    echo "===> Installing Steam"
+    winetricks -q steam
+    cp ./configs/Steam.plist ./Sims4.app/Contents/Info.plist
+fi
+
+
 
 echo "==> Moving Sims4.app to your Applications folder"
 sudo rsync -l -a -r ${PWD}/${WINESKIN_TARGET_NAME}/ /Applications/Sims4.app

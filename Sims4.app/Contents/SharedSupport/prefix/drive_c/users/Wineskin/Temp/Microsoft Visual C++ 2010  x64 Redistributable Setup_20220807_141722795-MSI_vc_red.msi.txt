@@ -1,0 +1,2 @@
+1: Microsoft Visual C++ 2010  x64 Redistributable - 10.0.40219 2: {1D8E6291-B0D5-35EC-8441-6616F567A0F7} 
+1: Microsoft Visual C++ 2010  x64 Redistributable - 10.0.40219 2: {1D8E6291-B0D5-35EC-8441-6616F567A0F7} 3: 1 
