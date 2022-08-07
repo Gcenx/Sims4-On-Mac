@@ -1,0 +1,2 @@
+1: Microsoft Visual C++ 2010  x86 Redistributable - 10.0.40219 2: {F0C3E5D1-1ADE-321E-8167-68EF0DE699A5} 
+1: Microsoft Visual C++ 2010  x86 Redistributable - 10.0.40219 2: {F0C3E5D1-1ADE-321E-8167-68EF0DE699A5} 3: 1 

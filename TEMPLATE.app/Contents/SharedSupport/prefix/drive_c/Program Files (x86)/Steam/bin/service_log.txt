@@ -1,0 +1,1 @@
+08/07/22 17:40:04 : ERROR! Failed to add firewall exception for C:\Program Files (x86)\Steam\steam.exe

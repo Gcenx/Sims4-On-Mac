@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<Settings>
+  <Setting key="AcceptedEULAVersion" value="5" type="2"/>
+  <Setting key="AutoPatchGlobal" value="true" type="1"/>
+  <Setting key="AutoUpdate" value="true" type="1"/>
+  <Setting key="BetaOptIn" value="false" type="1"/>
+  <Setting key="FirstTimeStarted" value="2022-08-07T17:35:47Z" type="10"/>
+  <Setting key="InstallTimestamp" value="1659908175" type="5"/>
+  <Setting key="Locale" value="en_US" type="10"/>
+  <Setting key="RunOnSystemStart" value="true" type="1"/>
+  <Setting key="TelemetryHWSurveyOptOut" value="false" type="1"/>
+</Settings>
