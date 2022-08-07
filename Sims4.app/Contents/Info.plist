@@ -117,6 +117,6 @@
 	<key>set max files</key>
 	<false/>
 	<key>use start.exe</key>
-	<integer>0</integer>
+	<integer>1</integer>
 </dict>
 </plist>
