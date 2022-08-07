@@ -4,6 +4,7 @@ WINESKIN_TARGET_NAME="Sims4.app"
 
 export WINEPREFIX="${PWD}/${WINESKIN_TARGET_NAME}/Contents/SharedSupport/prefix"
 wineskinlauncher(){ ${PWD}/${WINESKIN_TARGET_NAME}/Contents/MacOS/wineskinlauncher "${@}";}
+wineboot(){ wineskinlauncher WSS-wineprefixcreate >/dev/null 2>&1;}
 winetricks(){ wineskinlauncher WSS-winetricks "${@}";}
 override_dll(){ ${PWD}/${WINESKIN_TARGET_NAME}/Wineskin.app/Contents/Resources/wine reg add 'HKEY_CURRENT_USER\Software\Wine\DllOverrides' /v "${@}" /d native,builtin /f >/dev/null 2>&1;}
 
@@ -16,6 +17,12 @@ chmod +x ${PWD}/${WINESKIN_TARGET_NAME}/Wineskin.app/Contents/Resources/winetric
 
 
 
+
+# Failsafe as git doesn't remove even empty directories
+rm -rf ${WINEPREFIX} &>/dev/null
+
+echo "===> Creating wineprefix"
+wineboot
 
 echo "===> Installing Origin"
 winetricks -q -f origin
