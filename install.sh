@@ -18,6 +18,9 @@ chmod +x ${PWD}/${WINESKIN_TARGET_NAME}/Wineskin.app/Contents/Resources/winetric
 
 
 
+# Failsafe as git doesn't remove even empty directories
+rm -rf ${WINEPREFIX} &>/dev/null
+
 echo "===> Creating wineprefix"
 wineboot
 
