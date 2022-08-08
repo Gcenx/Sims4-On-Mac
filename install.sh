@@ -36,17 +36,19 @@ while true; do
 done
 
 if [ $platform == origin ]; then
-  echo "===> Installing Origin"
+  echo "===> Installing Origin, This may take a while."
   winetricks -q -f origin
   cp -f ${PWD}/configs/Origin.plist ${PWD}/${TARGET_NAME}/Contents/Info.plist
 elif [ $platform == steam ]; then
-  echo "===> Installing Steam"
+  echo "===> Installing Steam, This may take a while."
   winetricks -q -f origin steam
   cp -f ${PWD}/configs/Steam.plist ${PWD}/${TARGET_NAME}/Contents/Info.plist
 fi
 
 
 
-echo "==> Moving Sims4.app to your Applications folder"
+echo "===> Moving Sims4.app to your Applications folder"
 sudo rsync -l -a -r ${PWD}/${TARGET_NAME}/ /Applications/${TARGET_NAME}
 rm -rf ${TARGET_NAME}
+echo "===> launching Sims4.app"
+open -a /Applications/Sims4.app
