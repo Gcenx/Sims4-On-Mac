@@ -1,0 +1,504 @@
+1: 0 2: 1033 3: 1252 
+=== Logging started: 8/7/2022  5:36:06 ===
+Message type: 0, Argument: 1033
+Message type: 1, Argument: Microsoft Visual C++ 2013 x86 Additional Runtime - 12.0.21005
+Action 5:36:06: INSTALL. 
+Action start 5:36:06: INSTALL.
+1: 0 2: 1033 3: 1252 
+1: 0 2: 1033 3: 1252 
+=== Logging started: 8/7/2022  5:36:06 ===
+Message type: 0, Argument: 1033
+Message type: 1, Argument: Microsoft Visual C++ 2013 x86 Additional Runtime - 12.0.21005
+Action 5:36:06: INSTALL. 
+Action start 5:36:06: INSTALL.
+1: Microsoft Visual C++ 2013 x86 Additional Runtime - 12.0.21005 2: {F8CFEB22-A2E7-3971-9EDA-4B11EDEFC185} 
+Action 5:36:06: FindRelatedProducts. Searching for related applications
+Action start 5:36:06: FindRelatedProducts.
+Action ended 5:36:06: FindRelatedProducts. Return value 1.
+Action 5:36:06: LaunchConditions. Evaluating launch conditions
+Action start 5:36:06: LaunchConditions.
+Action ended 5:36:06: LaunchConditions. Return value 1.
+Action 5:36:06: AppSearch. Searching for installed applications
+Action start 5:36:06: AppSearch.
+Property: REDISTFOUNDVERLANG, Signature: DetectRedistVerLangSignature
+Property: REDISTFOUNDVER, Signature: DetectRedistVerSignature
+Property: JSHFOUNDVER, Signature: DetectJSHVerSignature
+Property: OCMFOUNDVER, Signature: DetectOCMRedistVerSignature
+Property: OCMFOUNDVERLANG, Signature: DetectOCMRedistVerLangSignature
+Action ended 5:36:06: AppSearch. Return value 1.
+Action 5:36:06: ValidateProductID. 
+Action start 5:36:06: ValidateProductID.
+Action ended 5:36:06: ValidateProductID. Return value 1.
+Action 5:36:06: CostInitialize. Computing space requirements
+Action start 5:36:06: CostInitialize.
+Action ended 5:36:06: CostInitialize. Return value 1.
+Action 5:36:06: FileCost. Computing space requirements
+Action start 5:36:06: FileCost.
+Action ended 5:36:06: FileCost. Return value 1.
+Action 5:36:06: CostFinalize. Computing space requirements
+Action start 5:36:06: CostFinalize.
+Action ended 5:36:06: CostFinalize. Return value 1.
+Action 5:36:06: SetODBCFolders. Initializing ODBC directories
+Action start 5:36:06: SetODBCFolders.
+Action ended 5:36:06: SetODBCFolders. Return value 1.
+Action 5:36:06: InstallValidate. Validating install
+Action start 5:36:06: InstallValidate.
+Action ended 5:36:06: InstallValidate. Return value 1.
+Action 5:36:06: InstallInitialize. 
+Action start 5:36:06: InstallInitialize.
+Action ended 5:36:06: InstallInitialize. Return value 1.
+Action 5:36:06: AllocateRegistrySpace. Allocating registry space
+Action start 5:36:06: AllocateRegistrySpace.
+Free space: 0
+Action ended 5:36:06: AllocateRegistrySpace. Return value 1.
+Action 5:36:06: ProcessComponents. Updating component registration
+Action start 5:36:06: ProcessComponents.
+Action ended 5:36:06: ProcessComponents. Return value 1.
+Action 5:36:06: UnpublishComponents. Unpublishing Qualified Components
+Action start 5:36:06: UnpublishComponents.
+Action ended 5:36:06: UnpublishComponents. Return value 1.
+Action 5:36:06: MsiUnpublishAssemblies. Unpublishing assembly information
+Action start 5:36:06: MsiUnpublishAssemblies.
+Action ended 5:36:06: MsiUnpublishAssemblies. Return value 1.
+Action 5:36:06: UnpublishFeatures. Unpublishing Product Features
+Action start 5:36:06: UnpublishFeatures.
+Action ended 5:36:06: UnpublishFeatures. Return value 1.
+Action 5:36:06: StopServices. Stopping services
+Action start 5:36:06: StopServices.
+Action ended 5:36:06: StopServices. Return value 1.
+Action 5:36:06: DeleteServices. Deleting services
+Action start 5:36:06: DeleteServices.
+Action ended 5:36:06: DeleteServices. Return value 1.
+Action 5:36:06: UnregisterComPlus. Unregistering COM+ Applications and Components
+Action start 5:36:06: UnregisterComPlus.
+Action ended 5:36:06: UnregisterComPlus. Return value 1.
+Action 5:36:06: SelfUnregModules. Unregistering modules
+Action start 5:36:06: SelfUnregModules.
+Action ended 5:36:06: SelfUnregModules. Return value 1.
+Action 5:36:06: UnregisterTypeLibraries. Unregistering type libraries
+Action start 5:36:06: UnregisterTypeLibraries.
+Action ended 5:36:06: UnregisterTypeLibraries. Return value 1.
+Action 5:36:06: RemoveODBC. Removing ODBC components
+Action start 5:36:06: RemoveODBC.
+Action ended 5:36:06: RemoveODBC. Return value 1.
+Action 5:36:06: UnregisterFonts. Unregistering fonts
+Action start 5:36:06: UnregisterFonts.
+Action ended 5:36:06: UnregisterFonts. Return value 1.
+Action 5:36:06: RemoveRegistryValues. Removing system registry values
+Action start 5:36:06: RemoveRegistryValues.
+Action ended 5:36:06: RemoveRegistryValues. Return value 1.
+Action 5:36:06: UnregisterClassInfo. Unregister Class servers
+Action start 5:36:06: UnregisterClassInfo.
+Action ended 5:36:06: UnregisterClassInfo. Return value 1.
+Action 5:36:06: UnregisterMIMEInfo. Unregistering MIME info
+Action start 5:36:06: UnregisterMIMEInfo.
+Action ended 5:36:06: UnregisterMIMEInfo. Return value 1.
+Action 5:36:06: RemoveIniValues. Removing INI files entries
+Action start 5:36:06: RemoveIniValues.
+Action ended 5:36:06: RemoveIniValues. Return value 1.
+Action 5:36:06: RemoveShortcuts. Removing shortcuts
+Action start 5:36:06: RemoveShortcuts.
+Action ended 5:36:06: RemoveShortcuts. Return value 1.
+Action 5:36:06: RemoveEnvironmentStrings. Updating environment strings
+Action start 5:36:06: RemoveEnvironmentStrings.
+Action ended 5:36:06: RemoveEnvironmentStrings. Return value 1.
+Action 5:36:06: RemoveDuplicateFiles. Removing duplicated files
+Action start 5:36:06: RemoveDuplicateFiles.
+Action ended 5:36:06: RemoveDuplicateFiles. Return value 1.
+Action 5:36:06: RemoveFiles. Removing files
+Action start 5:36:06: RemoveFiles.
+Action ended 5:36:06: RemoveFiles. Return value 1.
+Action 5:36:06: RemoveFolders. Removing folders
+Action start 5:36:06: RemoveFolders.
+Action ended 5:36:06: RemoveFolders. Return value 1.
+Action 5:36:06: CreateFolders. Creating folders
+Action start 5:36:06: CreateFolders.
+Action ended 5:36:06: CreateFolders. Return value 1.
+Action 5:36:06: MoveFiles. Moving files
+Action start 5:36:06: MoveFiles.
+Action ended 5:36:06: MoveFiles. Return value 1.
+Action 5:36:06: InstallFiles. Copying new files
+Action start 5:36:06: InstallFiles.
+Action ended 5:36:06: InstallFiles. Return value 1.
+Action 5:36:06: DuplicateFiles. Creating duplicate files
+Action start 5:36:06: DuplicateFiles.
+Action ended 5:36:06: DuplicateFiles. Return value 1.
+Action 5:36:06: BindImage. Binding executables
+Action start 5:36:06: BindImage.
+Action ended 5:36:06: BindImage. Return value 1.
+Action 5:36:06: RegisterClassInfo. Registering Class servers
+Action start 5:36:06: RegisterClassInfo.
+Action ended 5:36:06: RegisterClassInfo. Return value 1.
+Action 5:36:06: RegisterMIMEInfo. Registering MIME info
+Action start 5:36:06: RegisterMIMEInfo.
+Action ended 5:36:06: RegisterMIMEInfo. Return value 1.
+Action 5:36:06: RegisterTypeLibraries. Registering type libraries
+Action start 5:36:06: RegisterTypeLibraries.
+Action ended 5:36:06: RegisterTypeLibraries. Return value 1.
+Action 5:36:06: WriteRegistryValues. Writing system registry values
+Action start 5:36:06: WriteRegistryValues.
+Action ended 5:36:06: WriteRegistryValues. Return value 1.
+Action 5:36:06: WriteIniValues. Writing INI files values
+Action start 5:36:06: WriteIniValues.
+Action ended 5:36:06: WriteIniValues. Return value 1.
+Action 5:36:06: WriteEnvironmentStrings. Updating environment strings
+Action start 5:36:06: WriteEnvironmentStrings.
+Action ended 5:36:06: WriteEnvironmentStrings. Return value 1.
+Action 5:36:06: RegisterFonts. Registering fonts
+Action start 5:36:06: RegisterFonts.
+Action ended 5:36:06: RegisterFonts. Return value 1.
+Action 5:36:06: InstallODBC. Installing ODBC components
+Action start 5:36:06: InstallODBC.
+Action ended 5:36:06: InstallODBC. Return value 1.
+Action 5:36:06: SelfRegModules. Registering modules
+Action start 5:36:06: SelfRegModules.
+Action ended 5:36:06: SelfRegModules. Return value 1.
+Action 5:36:06: RegisterComPlus. Registering COM+ Applications and Components
+Action start 5:36:06: RegisterComPlus.
+Action ended 5:36:06: RegisterComPlus. Return value 1.
+Action 5:36:06: InstallServices. Installing new services
+Action start 5:36:06: InstallServices.
+Action ended 5:36:06: InstallServices. Return value 1.
+Action 5:36:06: StartServices. Starting services
+Action start 5:36:06: StartServices.
+Action ended 5:36:06: StartServices. Return value 1.
+Action 5:36:06: RegisterUser. Registering user
+Action start 5:36:06: RegisterUser.
+Action ended 5:36:06: RegisterUser. Return value 1.
+Action 5:36:06: RegisterProduct. Registering product
+Action start 5:36:06: RegisterProduct.
+Action ended 5:36:06: RegisterProduct. Return value 1.
+Action 5:36:06: PublishComponents. Publishing Qualified Components
+Action start 5:36:06: PublishComponents.
+Action ended 5:36:06: PublishComponents. Return value 1.
+Action 5:36:06: MsiPublishAssemblies. Publishing assembly information
+Action start 5:36:06: MsiPublishAssemblies.
+Action ended 5:36:06: MsiPublishAssemblies. Return value 1.
+Action 5:36:06: PublishFeatures. Publishing Product Features
+Action start 5:36:06: PublishFeatures.
+Action ended 5:36:06: PublishFeatures. Return value 1.
+Action 5:36:06: PublishProduct. Publishing product information
+Action start 5:36:06: PublishProduct.
+Action ended 5:36:06: PublishProduct. Return value 1.
+Action 5:36:06: CreateShortcuts. Creating shortcuts
+Action start 5:36:06: CreateShortcuts.
+Action ended 5:36:06: CreateShortcuts. Return value 1.
+Action 5:36:06: InstallFinalize. 
+Action start 5:36:06: InstallFinalize.
+Action 5:36:06: ProcessComponents. Updating component registration
+Action start 5:36:06: ProcessComponents.
+1: {F8CFEB22-A2E7-3971-9EDA-4B11EDEFC185} 2: {1D481A21-C43F-38B9-B0D1-E090FD2D2643} 3: 02:\SOFTWARE\Microsoft\VisualStudio\12.0\VC\Runtimes\x86\Version 
+1: {F8CFEB22-A2E7-3971-9EDA-4B11EDEFC185} 2: {7EA36934-F736-408F-BD04-A2A710E04773} 3: C:\windows\syswow64\mfc120.dll 
+1: {F8CFEB22-A2E7-3971-9EDA-4B11EDEFC185} 2: {B5B46CD9-9426-401F-9C3B-646807EFE00B} 3: C:\windows\syswow64\mfc120u.dll 
+1: {F8CFEB22-A2E7-3971-9EDA-4B11EDEFC185} 2: {D4263C2B-DA4A-4000-A8E0-4BE8E46A9A3C} 3: C:\windows\syswow64\mfcm120.dll 
+1: {F8CFEB22-A2E7-3971-9EDA-4B11EDEFC185} 2: {271E5C92-3536-4282-9ABF-449A91B8C2D7} 3: C:\windows\syswow64\mfcm120u.dll 
+1: {F8CFEB22-A2E7-3971-9EDA-4B11EDEFC185} 2: {8E4244B1-6F8F-4EA0-AC6A-346DE7CF79A0} 3: C:\windows\syswow64\mfc120cht.dll 
+1: {F8CFEB22-A2E7-3971-9EDA-4B11EDEFC185} 2: {BBB72240-8F6A-4A81-A4AB-B7F7FE2E94C6} 3: C:\windows\syswow64\mfc120chs.dll 
+1: {F8CFEB22-A2E7-3971-9EDA-4B11EDEFC185} 2: {96DA9037-C965-4C45-A27C-E762385411F2} 3: C:\windows\syswow64\mfc120enu.dll 
+1: {F8CFEB22-A2E7-3971-9EDA-4B11EDEFC185} 2: {0EE7DAF6-6619-4F44-827B-9402EF53A24D} 3: C:\windows\syswow64\mfc120deu.dll 
+1: {F8CFEB22-A2E7-3971-9EDA-4B11EDEFC185} 2: {C5403C4F-C052-463A-89BF-AC1027804359} 3: C:\windows\syswow64\mfc120esn.dll 
+1: {F8CFEB22-A2E7-3971-9EDA-4B11EDEFC185} 2: {2CBFA0D1-BFFD-469F-9C66-BED1CAB51BA0} 3: C:\windows\syswow64\mfc120fra.dll 
+1: {F8CFEB22-A2E7-3971-9EDA-4B11EDEFC185} 2: {9DD1063C-E422-495F-9AB6-7A149FB282B5} 3: C:\windows\syswow64\mfc120ita.dll 
+1: {F8CFEB22-A2E7-3971-9EDA-4B11EDEFC185} 2: {0AB2312F-BBE0-4C27-A207-624C7889B4D6} 3: C:\windows\syswow64\mfc120jpn.dll 
+1: {F8CFEB22-A2E7-3971-9EDA-4B11EDEFC185} 2: {6DA3A901-E012-42E2-B819-DAF378BE4BEF} 3: C:\windows\syswow64\mfc120kor.dll 
+1: {F8CFEB22-A2E7-3971-9EDA-4B11EDEFC185} 2: {90DDD30E-9D04-441F-9803-694F80387AE8} 3: C:\windows\syswow64\mfc120rus.dll 
+1: {F8CFEB22-A2E7-3971-9EDA-4B11EDEFC185} 2: {02A33D46-BBAA-3AE1-B18F-390B34F69D25} 3: 02:\SOFTWARE\Microsoft\DevDiv\vc\Servicing\12.0\SP 
+1: {F8CFEB22-A2E7-3971-9EDA-4B11EDEFC185} 2: {92CC4676-2A19-3796-AD5E-79865975F6F3} 3: 02:\SOFTWARE\Microsoft\DevDiv\vc\Servicing\12.0\RuntimeAdditional\Install 
+1: {F8CFEB22-A2E7-3971-9EDA-4B11EDEFC185} 2: {B7C0BF31-9400-344A-AF4E-9AA37AAF4B70} 3: -1:\Software\Classes\Installer\Dependencies\Microsoft.VS.VC_RuntimeAdditionalVSU_x86,v12\Version 
+Action ended 5:36:06: ProcessComponents. Return value 1.
+Action 5:36:06: UnpublishComponents. Unpublishing Qualified Components
+Action start 5:36:06: UnpublishComponents.
+Action ended 5:36:06: UnpublishComponents. Return value 1.
+Action 5:36:06: MsiUnpublishAssemblies. Unpublishing assembly information
+Action start 5:36:06: MsiUnpublishAssemblies.
+Action ended 5:36:06: MsiUnpublishAssemblies. Return value 1.
+Action 5:36:06: UnpublishFeatures. Unpublishing Product Features
+Action start 5:36:06: UnpublishFeatures.
+Action ended 5:36:06: UnpublishFeatures. Return value 1.
+Action 5:36:06: StopServices. Stopping services
+Action start 5:36:06: StopServices.
+Action ended 5:36:06: StopServices. Return value 1.
+Action 5:36:06: DeleteServices. Deleting services
+Action start 5:36:06: DeleteServices.
+Action ended 5:36:06: DeleteServices. Return value 1.
+Action 5:36:06: SelfUnregModules. Unregistering modules
+Action start 5:36:06: SelfUnregModules.
+Action ended 5:36:06: SelfUnregModules. Return value 1.
+Action 5:36:06: UnregisterTypeLibraries. Unregistering type libraries
+Action start 5:36:06: UnregisterTypeLibraries.
+Action ended 5:36:06: UnregisterTypeLibraries. Return value 1.
+Action 5:36:06: RemoveODBC. Removing ODBC components
+Action start 5:36:06: RemoveODBC.
+Action ended 5:36:06: RemoveODBC. Return value 1.
+Action 5:36:06: UnregisterFonts. Unregistering fonts
+Action start 5:36:06: UnregisterFonts.
+Action ended 5:36:06: UnregisterFonts. Return value 1.
+Action 5:36:06: RemoveRegistryValues. Removing system registry values
+Action start 5:36:06: RemoveRegistryValues.
+Action ended 5:36:06: RemoveRegistryValues. Return value 1.
+Action 5:36:06: UnregisterClassInfo. Unregister Class servers
+Action start 5:36:06: UnregisterClassInfo.
+Action ended 5:36:06: UnregisterClassInfo. Return value 1.
+Action 5:36:06: UnregisterMIMEInfo. Unregistering MIME info
+Action start 5:36:06: UnregisterMIMEInfo.
+Action ended 5:36:06: UnregisterMIMEInfo. Return value 1.
+Action 5:36:06: RemoveIniValues. Removing INI files entries
+Action start 5:36:06: RemoveIniValues.
+Action ended 5:36:06: RemoveIniValues. Return value 1.
+Action 5:36:06: RemoveShortcuts. Removing shortcuts
+Action start 5:36:06: RemoveShortcuts.
+Action ended 5:36:06: RemoveShortcuts. Return value 1.
+Action 5:36:06: RemoveEnvironmentStrings. Updating environment strings
+Action start 5:36:06: RemoveEnvironmentStrings.
+Action ended 5:36:06: RemoveEnvironmentStrings. Return value 1.
+Action 5:36:06: RemoveDuplicateFiles. Removing duplicated files
+Action start 5:36:06: RemoveDuplicateFiles.
+Action ended 5:36:06: RemoveDuplicateFiles. Return value 1.
+Action 5:36:06: RemoveFiles. Removing files
+Action start 5:36:06: RemoveFiles.
+File: mfc120.dll, Directory: SystemFolder_x86_VC
+File: mfc120chs.dll, Directory: SystemFolder_x86_VC
+File: mfc120cht.dll, Directory: SystemFolder_x86_VC
+File: mfc120deu.dll, Directory: SystemFolder_x86_VC
+File: mfc120enu.dll, Directory: SystemFolder_x86_VC
+File: mfc120esn.dll, Directory: SystemFolder_x86_VC
+File: mfc120fra.dll, Directory: SystemFolder_x86_VC
+File: mfc120ita.dll, Directory: SystemFolder_x86_VC
+File: mfc120jpn.dll, Directory: SystemFolder_x86_VC
+File: mfc120kor.dll, Directory: SystemFolder_x86_VC
+File: mfc120rus.dll, Directory: SystemFolder_x86_VC
+File: mfc120u.dll, Directory: SystemFolder_x86_VC
+File: mfcm120.dll, Directory: SystemFolder_x86_VC
+File: mfcm120u.dll, Directory: SystemFolder_x86_VC
+Action ended 5:36:06: RemoveFiles. Return value 1.
+Action 5:36:06: RemoveFolders. Removing folders
+Action start 5:36:06: RemoveFolders.
+Action ended 5:36:06: RemoveFolders. Return value 1.
+Action 5:36:06: CreateFolders. Creating folders
+Action start 5:36:06: CreateFolders.
+Action ended 5:36:06: CreateFolders. Return value 1.
+Action 5:36:06: MoveFiles. Moving files
+Action start 5:36:06: MoveFiles.
+Action ended 5:36:06: MoveFiles. Return value 1.
+Action 5:36:06: InstallFiles. Copying new files
+Action start 5:36:06: InstallFiles.
+File: mfc120.dll,  Directory: SystemFolder_x86_VC,  Size: 4424344
+File: mfc120chs.dll,  Directory: SystemFolder_x86_VC,  Size: 46248
+File: mfc120cht.dll,  Directory: SystemFolder_x86_VC,  Size: 46248
+File: mfc120deu.dll,  Directory: SystemFolder_x86_VC,  Size: 74920
+File: mfc120enu.dll,  Directory: SystemFolder_x86_VC,  Size: 65192
+File: mfc120esn.dll,  Directory: SystemFolder_x86_VC,  Size: 73896
+File: mfc120fra.dll,  Directory: SystemFolder_x86_VC,  Size: 74920
+File: mfc120ita.dll,  Directory: SystemFolder_x86_VC,  Size: 72872
+File: mfc120jpn.dll,  Directory: SystemFolder_x86_VC,  Size: 53928
+File: mfc120kor.dll,  Directory: SystemFolder_x86_VC,  Size: 53416
+File: mfc120rus.dll,  Directory: SystemFolder_x86_VC,  Size: 70824
+File: mfc120u.dll,  Directory: SystemFolder_x86_VC,  Size: 4449952
+File: mfcm120.dll,  Directory: SystemFolder_x86_VC,  Size: 83104
+File: mfcm120u.dll,  Directory: SystemFolder_x86_VC,  Size: 83104
+Action ended 5:36:06: InstallFiles. Return value 1.
+Action 5:36:06: DuplicateFiles. Creating duplicate files
+Action start 5:36:06: DuplicateFiles.
+Action ended 5:36:06: DuplicateFiles. Return value 1.
+Action 5:36:06: RegisterClassInfo. Registering Class servers
+Action start 5:36:06: RegisterClassInfo.
+Action ended 5:36:06: RegisterClassInfo. Return value 1.
+Action 5:36:06: RegisterMIMEInfo. Registering MIME info
+Action start 5:36:06: RegisterMIMEInfo.
+Action ended 5:36:06: RegisterMIMEInfo. Return value 1.
+Action 5:36:06: RegisterTypeLibraries. Registering type libraries
+Action start 5:36:06: RegisterTypeLibraries.
+Action ended 5:36:06: RegisterTypeLibraries. Return value 1.
+Action 5:36:06: WriteRegistryValues. Writing system registry values
+Action start 5:36:06: WriteRegistryValues.
+Key: HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\VisualStudio\12.0\VC\Runtimes\x86, Name: Version, Value: v12.0.21005.01
+Key: HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\DevDiv\vc\Servicing\12.0, Name: SP, Value: 
+Key: HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\DevDiv\vc\Servicing\12.0\RuntimeAdditional, Name: Install, Value: 
+Key: HKEY_LOCAL_MACHINE\Software\Classes\Installer\Dependencies\Microsoft.VS.VC_RuntimeAdditionalVSU_x86,v12, Name: Version, Value: 12.0.21005
+Key: HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\VisualStudio\12.0\VC\Runtimes\x86, Name: Installed, Value: 
+Key: HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\VisualStudio\12.0\VC\Runtimes\x86, Name: Major, Value: 
+Key: HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\VisualStudio\12.0\VC\Runtimes\x86, Name: Minor, Value: 
+Key: HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\VisualStudio\12.0\VC\Runtimes\x86, Name: Bld, Value: 
+Key: HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\VisualStudio\12.0\VC\Runtimes\x86, Name: Rbld, Value: 
+Key: HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\DevDiv\vc\Servicing\12.0, Name: SPIndex, Value: 
+Key: HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\DevDiv\vc\Servicing\12.0\RuntimeAdditional, Name: InstallerType, Value: MSI
+Key: HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\DevDiv\vc\Servicing\12.0\RuntimeAdditional, Name: SP, Value: 
+Key: HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\DevDiv\vc\Servicing\12.0\RuntimeAdditional, Name: SPIndex, Value: 
+Key: HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\DevDiv\vc\Servicing\12.0\RuntimeAdditional, Name: SPName, Value: RTM
+Key: HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\DevDiv\vc\Servicing\12.0\RuntimeAdditional, Name: Version, Value: 12.0.21005
+Key: HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\DevDiv\vc\Servicing\12.0\RuntimeAdditional, Name: UpdateVersion, Value: 12.0.21005
+Key: HKEY_LOCAL_MACHINE\Software\Classes\Installer\Dependencies\Microsoft.VS.VC_RuntimeAdditionalVSU_x86,v12, Name: , Value: {F8CFEB22-A2E7-3971-9EDA-4B11EDEFC185}
+Key: HKEY_LOCAL_MACHINE\Software\Classes\Installer\Dependencies\Microsoft.VS.VC_RuntimeAdditionalVSU_x86,v12, Name: DisplayName, Value: Microsoft Visual C++ 2013 x86 Additional Runtime - 12.0.21005
+Action ended 5:36:06: WriteRegistryValues. Return value 1.
+Action 5:36:06: WriteIniValues. Writing INI files values
+Action start 5:36:06: WriteIniValues.
+Action ended 5:36:06: WriteIniValues. Return value 1.
+Action 5:36:06: WriteEnvironmentStrings. Updating environment strings
+Action start 5:36:06: WriteEnvironmentStrings.
+Action ended 5:36:06: WriteEnvironmentStrings. Return value 1.
+Action 5:36:06: RegisterFonts. Registering fonts
+Action start 5:36:06: RegisterFonts.
+Action ended 5:36:06: RegisterFonts. Return value 1.
+Action 5:36:06: InstallODBC. Installing ODBC components
+Action start 5:36:06: InstallODBC.
+Action ended 5:36:06: InstallODBC. Return value 1.
+Action 5:36:06: SelfRegModules. Registering modules
+Action start 5:36:06: SelfRegModules.
+Action ended 5:36:06: SelfRegModules. Return value 1.
+Action 5:36:06: InstallServices. Installing new services
+Action start 5:36:06: InstallServices.
+Action ended 5:36:06: InstallServices. Return value 1.
+Action 5:36:06: StartServices. Starting services
+Action start 5:36:06: StartServices.
+Action ended 5:36:06: StartServices. Return value 1.
+Action 5:36:06: RegisterUser. Registering user
+Action start 5:36:06: RegisterUser.
+1:  
+Action ended 5:36:06: RegisterUser. Return value 1.
+Action 5:36:06: RegisterProduct. Registering product
+Action start 5:36:06: RegisterProduct.
+1: {F8CFEB22-A2E7-3971-9EDA-4B11EDEFC185} 
+Action ended 5:36:06: RegisterProduct. Return value 1.
+Action 5:36:06: PublishComponents. Publishing Qualified Components
+Action start 5:36:06: PublishComponents.
+Action ended 5:36:06: PublishComponents. Return value 1.
+Action 5:36:06: MsiPublishAssemblies. Publishing assembly information
+Action start 5:36:06: MsiPublishAssemblies.
+Action ended 5:36:06: MsiPublishAssemblies. Return value 1.
+Action 5:36:06: PublishFeatures. Publishing Product Features
+Action start 5:36:06: PublishFeatures.
+Feature: VC_Runtime_Additional
+Feature: Provider
+Feature: Servicing_Key
+Action ended 5:36:06: PublishFeatures. Return value 1.
+Action 5:36:06: PublishProduct. Publishing product information
+Action start 5:36:06: PublishProduct.
+1: {F8CFEB22-A2E7-3971-9EDA-4B11EDEFC185} 
+Action ended 5:36:06: PublishProduct. Return value 1.
+Action 5:36:06: CreateShortcuts. Creating shortcuts
+Action start 5:36:06: CreateShortcuts.
+Action ended 5:36:06: CreateShortcuts. Return value 1.
+Action ended 5:36:06: InstallFinalize. Return value 1.
+Action 5:36:06: RemoveExistingProducts. Removing applications
+Action start 5:36:06: RemoveExistingProducts.
+Action ended 5:36:06: RemoveExistingProducts. Return value 1.
+Action ended 5:36:06: INSTALL. Return value 1.
+1: Microsoft Visual C++ 2013 x86 Additional Runtime - 12.0.21005 2: {F8CFEB22-A2E7-3971-9EDA-4B11EDEFC185} 3: 1 
+Property(S): DiskPrompt = 
+Property(S): UpgradeCode = {936E696B-0C8D-3A48-98DF-344FEA4E1139}
+Property(S): TARGETDIR = C:\
+Property(S): SystemFolder_x86_VC = C:\windows\syswow64\
+Property(S): SourceDir = C:\ProgramData\Package Cache\{F8CFEB22-A2E7-3971-9EDA-4B11EDEFC185}v12.0.21005\packages\vcRuntimeAdditional_x86\
+Property(S): SystemFolder = C:\windows\syswow64\
+Property(S): VersionNT = 601
+Property(S): ALLUSERS = 1
+Property(S): ARPHELPLINK = http://go.microsoft.com/fwlink/?LinkId=133405
+Property(S): ARPNOMODIFY = 1
+Property(S): ARPURLUpdateInfo = http://go.microsoft.com/fwlink/?LinkId=133408
+Property(S): ARPCOMMENTS = Caution. Removing this product might prevent some applications from running.
+Property(S): comspec_cmd = %comspec%
+Property(S): DDPatch = 0
+Property(S): FeatureID = 1
+Property(S): FILESINUSETEXT = The following applications should be closed before continuing the install:
+Property(S): FXAssemblyVersion = 4.0.0.0
+Property(S): FXAssemblyVersion35 = 3.5.0.0
+Property(S): INSTALLLEVEL = 2
+Property(S): LIMITUI = 1
+Property(S): NullGUID = {00000000-0000-0000-0000-000000000000}
+Property(S): PIDRegEntryName = ProductID
+Property(S): PIDUserNameRegKey = SOFTWARE\Microsoft\VisualStudio\7.0\Registration
+Property(S): PIDUserNameRegRoot = HKEY_LOCAL_MACHINE
+Property(S): PrimaryDir = VS7.3643236F_FC70_11D3_A536_0090278A1BB8
+Property(S): REBOOT = ReallySuppress
+Property(S): REPAIR_REINSTALLMODE = pecmsu
+Property(S): ReserveAdditionalCostVS7UI = 8388608
+Property(S): RunCount = 49
+Property(S): UpdateProp1 = 0
+Property(S): UpdateProp2 = 0
+Property(S): UpdateProp3 = 0
+Property(S): UpdateProp4 = 0
+Property(S): UpdateProp5 = 0
+Property(S): UserNameRegEntryName = UserName
+Property(S): ARPSYSTEMCOMPONENT = 1
+Property(S): BuildType = ret
+Property(S): URTVersion = v4.0.30319
+Property(S): LocProductName = Microsoft Visual C++ 2013 x86 Runtime
+Property(S): ProductCPU = x86
+Property(S): ProductEdition = Runtime
+Property(S): ProductFamily = VC
+Property(S): ProductImage = net
+Property(S): RTM_ProductVersion = 12.0.21005
+Property(S): ProductVersionHigh = 720896
+Property(S): ProductVersionLow = 1999110144
+Property(S): MsiLogging = voicewarmup
+Property(S): Manufacturer = Microsoft Corporation
+Property(S): ProductCode = {F8CFEB22-A2E7-3971-9EDA-4B11EDEFC185}
+Property(S): ProductLanguage = 1033
+Property(S): ProductName = Microsoft Visual C++ 2013 x86 Additional Runtime - 12.0.21005
+Property(S): ProductVersion = 12.0.21005
+Property(S): DirectoryTable100_x86 = DirectoryTable
+Property(S): SecureCustomProperties = IE501FOUND.3643236F_FC70_11D3_A536_0090278A1BB8;IGNOREDEPENDENCIES;INSTALLBLOCKFOUND.3643236F_FC70_11D3_A536_0090278A1BB8;JSHFOUNDVER;NEWERVCRUNTIMEVERSIONDETECTED;OCMFOUNDVER;OCMFOUNDVERLANG;REDISTFOUNDVER;REDISTFOUNDVERLANG;UNINSTALLBLOCKFOUND.3643236F_FC70_11D3_A536_0090278A1BB8;UPGRADEVCRUNTIME
+Property(S): WixPdbPath = f:\ddSetup\SD\1\wix\outs\x86ret\enu\cooked\vc_RuntimeAdditional_net.wixpdb
+Property(S): AdminUser = 1
+Property(S): CommonAppDataFolder = C:\ProgramData\
+Property(S): FavoritesFolder = C:\users\gcenx\Favorites\
+Property(S): FontsFolder = C:\windows\Fonts\
+Property(S): SendToFolder = C:\users\gcenx\SendTo\
+Property(S): StartMenuFolder = C:\users\gcenx\Start Menu\
+Property(S): StartupFolder = C:\users\gcenx\Start Menu\Programs\StartUp\
+Property(S): TemplateFolder = C:\users\gcenx\Templates\
+Property(S): DesktopFolder = C:\users\gcenx\Desktop\
+Property(S): ProgramMenuFolder = C:\users\gcenx\Start Menu\Programs\
+Property(S): AdminToolsFolder = C:\users\gcenx\Start Menu\Programs\Administrative Tools\
+Property(S): AppDataFolder = C:\users\gcenx\Application Data\
+Property(S): System16Folder = C:\windows\system32\
+Property(S): LocalAppDataFolder = C:\users\gcenx\Local Settings\Application Data\
+Property(S): MyPicturesFolder = C:\users\gcenx\My Pictures\
+Property(S): PersonalFolder = C:\users\gcenx\My Documents\
+Property(S): WindowsFolder = C:\windows\
+Property(S): PrintHoodFolder = C:\users\gcenx\PrintHood\
+Property(S): NetHoodFolder = C:\users\gcenx\NetHood\
+Property(S): RecentFolder = C:\users\gcenx\Recent\
+Property(S): PhysicalMemory = 12288
+Property(S): WindowsVolume = C:\
+Property(S): TempFolder = C:\users\gcenx\Temp\
+Property(S): Privileged = 1
+Property(S): MsiNTProductType = 1
+Property(S): WindowsBuild = 7601
+Property(S): ServicePackLevel = 1
+Property(S): VersionMsi = 4.5
+Property(S): VersionDatabase = 400
+Property(S): Intel = 6
+Property(S): MsiAMD64 = 6
+Property(S): Msix64 = 6
+Property(S): VersionNT64 = 601
+Property(S): System64Folder = C:\windows\system32\
+Property(S): ProgramFiles64Folder = C:\Program Files\
+Property(S): ProgramFilesFolder = C:\Program Files (x86)\
+Property(S): CommonFiles64Folder = C:\Program Files\Common Files\
+Property(S): CommonFilesFolder = C:\Program Files (x86)\Common Files\
+Property(S): ScreenX = 1440
+Property(S): ScreenY = 900
+Property(S): ColorBits = 32
+Property(S): UserSID = S-1-5-21-0-0-0-1000
+Property(S): UserLanguageID = 1033
+Property(S): SystemLanguageID = 1033
+Property(S): ProductState = -1
+Property(S): LogonUser = gcenx
+Property(S): ComputerName = DEANS-MAC-MINI
+Property(S): UILevel = 2
+Property(S): PackageCode = {5703FD24-BF2D-4D14-AB2F-E415A0361E63}
+Property(S): DATABASE = C:\windows\Installer\ce6.msi
+Property(S): OriginalDatabase = C:\ProgramData\Package Cache\{F8CFEB22-A2E7-3971-9EDA-4B11EDEFC185}v12.0.21005\packages\vcRuntimeAdditional_x86\vc_runtimeAdditional_x86.msi
+Property(S): SOURCEDIR = C:\ProgramData\Package Cache\{F8CFEB22-A2E7-3971-9EDA-4B11EDEFC185}v12.0.21005\packages\vcRuntimeAdditional_x86\
+Property(S): MSIFASTINSTALL = 7
+Property(S): NOVSUI = 1
+Property(S): ACTION = INSTALL
+Property(S): EXECUTEACTION = INSTALL
+Property(S): CostingComplete = 1
+Property(S): ROOTDRIVE = C:\
+Property(S): OutOfDiskSpace = 0
+Property(S): OutOfNoRbDiskSpace = 0
+1: 2 2: 0 
+1: 2 2: 1 
+Action ended 5:36:06: INSTALL. Return value 1.
