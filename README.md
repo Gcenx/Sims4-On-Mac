@@ -8,7 +8,7 @@ and follow the directions.
 # To install GShade once Sims4 is installed.
 Open Terminal and copy/paste the following command (entire line)
 ```
-/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/ZoeyCluff/gshade-on-mac/master/Gshade_on_mac.sh)"
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Zoeyrae/gshade-on-mac/master/Gshade_on_mac.sh)"
 ```
 type W in the menu and hit enter, it in theory should handle the rest.
 
