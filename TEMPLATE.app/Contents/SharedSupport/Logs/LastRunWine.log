@@ -1,0 +1,133 @@
+preloader: Warning: failed to reserve range 0000000000010000-0000000000110000
+preloader: Warning: failed to reserve range 0000000000010000-0000000000110000
+preloader: Warning: failed to reserve range 0000000000010000-0000000000110000
+preloader: Warning: failed to reserve range 0000000000010000-0000000000110000
+0034:fixme:winemenubuilderÿÿÿÿ:WinMain stub!(000000000041FD70 0000000000000000): stub
+preloader: Warning: failed to reserve range 0000000000010000-0000000000110000
+preloader: Warning: failed to reserve range 0000000000001000-0000000000010000
+preloader: Warning: failed to reserve range 0000000000010000-0000000000110000
+0068:fixme:ver:GetCurrentPackageId (01ADFEF0 00000000): stub
+006c:fixme:ver:GetCurrentPackageId (01BEFEF0 00000000): stub
+preloader: Warning: failed to reserve range 0000000000010000-0000000000110000
+008c:err:system:nulldrv_EnumDisplayMonitors Failed to enumerate monitors, reporting a 640x480 monitor.
+008c:err:system:nulldrv_EnumDisplayMonitors Failed to enumerate monitors, reporting a 640x480 monitor.
+008c:err:system:nulldrv_EnumDisplayMonitors Failed to enumerate monitors, reporting a 640x480 monitor.
+008c:err:system:nulldrv_EnumDisplayMonitors Failed to enumerate monitors, reporting a 640x480 monitor.
+008c:err:system:nulldrv_EnumDisplayMonitors Failed to enumerate monitors, reporting a 640x480 monitor.
+008c:err:system:nulldrv_EnumDisplayMonitors Failed to enumerate monitors, reporting a 640x480 monitor.
+008c:err:system:nulldrv_EnumDisplayMonitors Failed to enumerate monitors, reporting a 640x480 monitor.
+008c:err:system:nulldrv_EnumDisplayMonitors Failed to enumerate monitors, reporting a 640x480 monitor.
+008c:err:system:nulldrv_EnumDisplayMonitors Failed to enumerate monitors, reporting a 640x480 monitor.
+008c:err:system:nulldrv_EnumDisplayMonitors Failed to enumerate monitors, reporting a 640x480 monitor.
+008c:err:system:nulldrv_EnumDisplayMonitors Failed to enumerate monitors, reporting a 640x480 monitor.
+008c:err:system:nulldrv_EnumDisplayMonitors Failed to enumerate monitors, reporting a 640x480 monitor.
+008c:err:system:nulldrv_EnumDisplayMonitors Failed to enumerate monitors, reporting a 640x480 monitor.
+008c:err:system:nulldrv_EnumDisplayMonitors Failed to enumerate monitors, reporting a 640x480 monitor.
+008c:err:system:nulldrv_EnumDisplayMonitors Failed to enumerate monitors, reporting a 640x480 monitor.
+008c:err:system:nulldrv_EnumDisplayMonitors Failed to enumerate monitors, reporting a 640x480 monitor.
+008c:err:system:nulldrv_EnumDisplayMonitors Failed to enumerate monitors, reporting a 640x480 monitor.
+008c:err:system:nulldrv_EnumDisplayMonitors Failed to enumerate monitors, reporting a 640x480 monitor.
+008c:err:system:nulldrv_EnumDisplayMonitors Failed to enumerate monitors, reporting a 640x480 monitor.
+008c:err:system:nulldrv_EnumDisplayMonitors Failed to enumerate monitors, reporting a 640x480 monitor.
+008c:err:system:nulldrv_EnumDisplayMonitors Failed to enumerate monitors, reporting a 640x480 monitor.
+008c:err:system:nulldrv_EnumDisplayMonitors Failed to enumerate monitors, reporting a 640x480 monitor.
+008c:err:system:nulldrv_EnumDisplayMonitors Failed to enumerate monitors, reporting a 640x480 monitor.
+008c:err:system:nulldrv_EnumDisplayMonitors Failed to enumerate monitors, reporting a 640x480 monitor.
+008c:err:system:nulldrv_EnumDisplayMonitors Failed to enumerate monitors, reporting a 640x480 monitor.
+008c:err:system:nulldrv_EnumDisplayMonitors Failed to enumerate monitors, reporting a 640x480 monitor.
+008c:err:system:nulldrv_EnumDisplayMonitors Failed to enumerate monitors, reporting a 640x480 monitor.
+008c:err:system:nulldrv_EnumDisplayMonitors Failed to enumerate monitors, reporting a 640x480 monitor.
+preloader: Warning: failed to reserve range 0000000000010000-0000000000110000
+008c:err:system:nulldrv_EnumDisplayMonitors Failed to enumerate monitors, reporting a 640x480 monitor.
+008c:err:system:nulldrv_EnumDisplayMonitors Failed to enumerate monitors, reporting a 640x480 monitor.
+008c:err:system:nulldrv_EnumDisplayMonitors Failed to enumerate monitors, reporting a 640x480 monitor.
+008c:err:system:nulldrv_EnumDisplayMonitors Failed to enumerate monitors, reporting a 640x480 monitor.
+008c:err:system:nulldrv_EnumDisplayMonitors Failed to enumerate monitors, reporting a 640x480 monitor.
+008c:err:system:nulldrv_EnumDisplayMonitors Failed to enumerate monitors, reporting a 640x480 monitor.
+008c:err:system:nulldrv_EnumDisplayMonitors Failed to enumerate monitors, reporting a 640x480 monitor.
+008c:fixme:netprofm:connection_point_Advise 02318870, 02318F6C, 02318FD4 - semi-stub
+008c:fixme:netprofm:list_manager_GetConnectivity 023188D0, 0213FBA0
+00c8:err:system:nulldrv_EnumDisplayMonitors Failed to enumerate monitors, reporting a 640x480 monitor.
+00c8:err:system:nulldrv_EnumDisplayMonitors Failed to enumerate monitors, reporting a 640x480 monitor.
+00c8:err:system:nulldrv_EnumDisplayMonitors Failed to enumerate monitors, reporting a 640x480 monitor.
+00c8:err:system:nulldrv_EnumDisplayMonitors Failed to enumerate monitors, reporting a 640x480 monitor.
+00c8:err:system:nulldrv_EnumDisplayMonitors Failed to enumerate monitors, reporting a 640x480 monitor.
+00d4:fixme:seh:get_thread_times not implemented on this platform
+00d4:fixme:toolhelp:CreateToolhelp32Snapshot Unimplemented: heap list snapshot
+00d4:fixme:toolhelp:Heap32ListFirst : stub
+00d4:fixme:ntdll:NtQuerySystemInformation info_class SYSTEM_PERFORMANCE_INFORMATION
+preloader: Warning: failed to reserve range 0000000000010000-0000000000110000
+preloader: Warning: failed to reserve range 0000000000010000-0000000000110000
+00f4:err:system:nulldrv_EnumDisplayMonitors Failed to enumerate monitors, reporting a 640x480 monitor.
+00f4:err:system:nulldrv_EnumDisplayMonitors Failed to enumerate monitors, reporting a 640x480 monitor.
+00f4:err:system:nulldrv_EnumDisplayMonitors Failed to enumerate monitors, reporting a 640x480 monitor.
+00f4:err:system:nulldrv_EnumDisplayMonitors Failed to enumerate monitors, reporting a 640x480 monitor.
+00f4:err:system:nulldrv_EnumDisplayMonitors Failed to enumerate monitors, reporting a 640x480 monitor.
+preloader: Warning: failed to reserve range 0000000000010000-0000000000110000
+preloader: Warning: failed to reserve range 0000000000010000-0000000000110000
+preloader: Warning: failed to reserve range 0000000000010000-0000000000110000
+00fc:fixme:imm:ImeSetActiveContext (0x1b0090, 0): stub
+00fc:fixme:imm:ImmReleaseContext (0000000000010044, 00000000001B0090): stub
+002c:fixme:imm:ImeSetActiveContext (0x1af9e0, 1): stub
+002c:fixme:imm:ImmReleaseContext (000000000001006E, 00000000001AF9E0): stub
+00f0:err:setupapi:create_dest_file failed to create L"C:\\windows\\system32\\atl100.dll" (error=80)
+00f0:err:setupapi:create_dest_file failed to create L"C:\\windows\\system32\\ucrtbase.dll" (error=80)
+preloader: Warning: failed to reserve range 0000000000010000-0000000000110000
+014c:fixme:file:NtLockFile I/O completion on lock not implemented yet
+014c:fixme:ntdll:NtQuerySystemInformation info_class SYSTEM_PERFORMANCE_INFORMATION
+014c:err:mscoree:LoadLibraryShim error reading registry key for installroot
+014c:err:mscoree:LoadLibraryShim error reading registry key for installroot
+014c:err:mscoree:LoadLibraryShim error reading registry key for installroot
+014c:err:mscoree:LoadLibraryShim error reading registry key for installroot
+008c:fixme:netprofm:list_manager_GetConnectivity 023188D0, 0213D8D4
+preloader: Warning: failed to reserve range 0000000000010000-0000000000110000
+0154:fixme:file:NtLockFile I/O completion on lock not implemented yet
+0154:fixme:ntdll:NtQuerySystemInformation info_class SYSTEM_PERFORMANCE_INFORMATION
+0154:err:mscoree:LoadLibraryShim error reading registry key for installroot
+0154:err:mscoree:LoadLibraryShim error reading registry key for installroot
+0154:err:mscoree:LoadLibraryShim error reading registry key for installroot
+0154:err:mscoree:LoadLibraryShim error reading registry key for installroot
+preloader: Warning: failed to reserve range 0000000000001000-0000000000010000
+preloader: Warning: failed to reserve range 0000000000010000-0000000000110000
+015c:fixme:ver:GetCurrentPackageId (0032FE50 00000000): stub
+preloader: Warning: failed to reserve range 0000000000010000-0000000000110000
+0164:fixme:ver:GetCurrentPackageId (000000000031FCC0 0000000000000000): stub
+0154:fixme:msi:internal_ui_handler internal UI not implemented for message 0x0b000000 (UI level = 5)
+0154:fixme:msi:internal_ui_handler internal UI not implemented for message 0x0b000000 (UI level = 5)
+0154:fixme:ver:GetCurrentPackageId (000000000041FD70 0000000000000000): stub
+014c:fixme:msi:internal_ui_handler internal UI not implemented for message 0x0b000000 (UI level = 1)
+014c:fixme:msi:internal_ui_handler internal UI not implemented for message 0x0b000000 (UI level = 1)
+008c:fixme:netprofm:list_manager_GetConnectivity 023188D0, 0213D8D4
+preloader: Warning: failed to reserve range 0000000000010000-0000000000110000
+016c:fixme:ver:GetCurrentPackageId (000000000041FD70 0000000000000000): stub
+00f0:fixme:ver:GetCurrentPackageId (000000000041FD70 0000000000000000): stub
+preloader: Warning: failed to reserve range 0000000000001000-0000000000010000
+preloader: Warning: failed to reserve range 0000000000010000-0000000000110000
+017c:err:setupapi:create_dest_file failed to create L"C:\\windows\\system32\\atl100.dll" (error=80)
+017c:err:setupapi:create_dest_file failed to create L"C:\\windows\\system32\\msvcp140.dll" (error=80)
+017c:err:setupapi:create_dest_file failed to create L"C:\\windows\\system32\\ucrtbase.dll" (error=80)
+017c:err:setupapi:create_dest_file failed to create L"C:\\windows\\system32\\vcruntime140.dll" (error=80)
+preloader: Warning: failed to reserve range 0000000000001000-0000000000010000
+preloader: Warning: failed to reserve range 0000000000010000-0000000000110000
+0184:fixme:ver:GetCurrentPackageId (0061FEA4 00000000): stub
+017c:fixme:ver:GetCurrentPackageId (0060FEA4 00000000): stub
+wine: configuration in L"/Users/zoeycluff/Nextcloud2/Projects/Sims4-wineskin-build/TEMPLATE.app/Contents/SharedSupport/prefix" has been updated.
+002c:fixme:ver:GetCurrentPackageId (000000000041FD70 0000000000000000): stub
+preloader: Warning: failed to reserve range 0000000000010000-0000000000110000
+preloader: Warning: failed to reserve range 0000000000010000-0000000000110000
+018c:fixme:imm:ImeSetActiveContext (0x1b48d0, 1): stub
+018c:fixme:imm:ImmReleaseContext (000000000002005A, 00000000001B48D0): stub
+0194:fixme:imm:ImeSetActiveContext (0x1b0b00, 0): stub
+0194:fixme:imm:ImmReleaseContext (0000000000020078, 00000000001B0B00): stub
+008c:fixme:netprofm:list_manager_GetConnectivity 023188D0, 0213D8D4
+008c:fixme:netprofm:list_manager_GetConnectivity 023188D0, 0213D8D4
+008c:fixme:netprofm:list_manager_GetConnectivity 023188D0, 0213D8D4
+008c:fixme:netprofm:list_manager_GetConnectivity 023188D0, 0213D8D4
+008c:fixme:netprofm:list_manager_GetConnectivity 023188D0, 0213D8D4
+008c:fixme:netprofm:list_manager_GetConnectivity 023188D0, 0213D8D4
+008c:fixme:netprofm:list_manager_GetConnectivity 023188D0, 0213D8D4
+008c:fixme:netprofm:list_manager_GetConnectivity 023188D0, 0213D8D4
+008c:fixme:netprofm:list_manager_GetConnectivity 023188D0, 0213D8D4
+008c:fixme:netprofm:list_manager_GetConnectivity 023188D0, 0213D8D4
+008c:fixme:netprofm:list_manager_GetConnectivity 023188D0, 0213D8D4
+003c:fixme:ver:GetCurrentPackageId (000000000041FD70 0000000000000000): stub

@@ -209,6 +209,76 @@ WINE REGISTRY Version 2
 #time=1d8aaa641199440
 @="\"C:\\Program Files (x86)\\Steam\\steam.exe\" -- \"%1\""
 
+[Software\\Microsoft\\Installer\\Features\\A10294A1553B2F85E8337DCF946DD344] 1659936618
+#time=1d8aae7f2481fa2
+"wine_mono"=""
+
+[Software\\Microsoft\\Installer\\Features\\F2250418C276C635497ED0AB939E1DD6] 1659936618
+#time=1d8aae7f24a95a2
+"wine_mono"=""
+
+[Software\\Microsoft\\Installer\\Products\\A10294A1553B2F85E8337DCF946DD344] 1659936618
+#time=1d8aae7f24847a2
+"AdvertiseFlags"=dword:00000184
+"Assignment"=dword:00000000
+"AuthorizedLUAApp"=dword:00000000
+"Clients"=":"
+"InstanceType"=dword:00000000
+"Language"=dword:00000000
+"PackageCode"="5BAD07CCDF1FBD85DA7EBBA434BA0BCB"
+"ProductName"="Wine Mono Windows Support"
+"Version"=dword:07020000
+
+[Software\\Microsoft\\Installer\\Products\\A10294A1553B2F85E8337DCF946DD344\\SourceList] 1659936618
+#time=1d8aae7f2486b10
+"LastUsedSource"="n;1;C:\\windows\\mono\\mono-2.0\\support\\"
+"PackageName"="winemono-support.msi"
+
+[Software\\Microsoft\\Installer\\Products\\A10294A1553B2F85E8337DCF946DD344\\SourceList\\Media] 1659936618
+#time=1d8aae7f2487060
+"1"=";"
+"DiskPrompt"=""
+"MediaPackage"=""
+
+[Software\\Microsoft\\Installer\\Products\\A10294A1553B2F85E8337DCF946DD344\\SourceList\\Net] 1659936618
+#time=1d8aae7f2485e9a
+"1"=str(2):"C:\\windows\\mono\\mono-2.0\\support\\"
+
+[Software\\Microsoft\\Installer\\Products\\F2250418C276C635497ED0AB939E1DD6] 1659936618
+#time=1d8aae7f24ad0a8
+"AdvertiseFlags"=dword:00000184
+"Assignment"=dword:00000000
+"AuthorizedLUAApp"=dword:00000000
+"Clients"=":"
+"InstanceType"=dword:00000000
+"Language"=dword:00000000
+"PackageCode"="84D6F21332460AB51B5A06CAC8420230"
+"ProductName"="Wine Mono Runtime"
+"Version"=dword:07020000
+
+[Software\\Microsoft\\Installer\\Products\\F2250418C276C635497ED0AB939E1DD6\\SourceList] 1659936618
+#time=1d8aae7f24b09c4
+"LastUsedSource"="n;1;\\\\?\\Z:\\Users\\zoeycluff\\.cache\\wine\\"
+"PackageName"="wine-mono-7.2.0-x86.msi"
+
+[Software\\Microsoft\\Installer\\Products\\F2250418C276C635497ED0AB939E1DD6\\SourceList\\Media] 1659936618
+#time=1d8aae7f24b0f5a
+"1"=";"
+"DiskPrompt"=""
+"MediaPackage"=""
+
+[Software\\Microsoft\\Installer\\Products\\F2250418C276C635497ED0AB939E1DD6\\SourceList\\Net] 1659936618
+#time=1d8aae7f24af90c
+"1"=str(2):"\\\\?\\Z:\\Users\\zoeycluff\\.cache\\wine\\"
+
+[Software\\Microsoft\\Installer\\UpgradeCodes\\2CC501FD2AF876341B3D596CC39014CF] 1659936618
+#time=1d8aae7f24abcf8
+"F2250418C276C635497ED0AB939E1DD6"=""
+
+[Software\\Microsoft\\Installer\\UpgradeCodes\\906426ED5B6CA6842947FEB058F4B65C] 1659936618
+#time=1d8aae7f2483ee2
+"A10294A1553B2F85E8337DCF946DD344"=""
+
 [Software\\Microsoft\\Internet Explorer\\Main] 1659908090
 #time=1d8aaa5866bf32c
 "Search Page"="https://www.google.com"
@@ -273,29 +343,29 @@ WINE REGISTRY Version 2
 [Software\\Microsoft\\SystemCertificates\\Trust\\CTLs] 1659908147
 #time=1d8aaa5a8615bd4
 
-[Software\\Microsoft\\Windows\\CurrentVersion\\Explorer\\Shell Folders] 1659908089
-#time=1d8aaa585d66244
-"Administrative Tools"="C:\\users\\gcenx\\Start Menu\\Programs\\Administrative Tools"
-"AppData"="C:\\users\\gcenx\\Application Data"
-"Cache"="C:\\users\\gcenx\\Local Settings\\Temporary Internet Files"
-"Cookies"="C:\\users\\gcenx\\Cookies"
-"Desktop"="C:\\users\\gcenx\\Desktop"
-"Favorites"="C:\\users\\gcenx\\Favorites"
+[Software\\Microsoft\\Windows\\CurrentVersion\\Explorer\\Shell Folders] 1659936613
+#time=1d8aae7eefb8442
+"Administrative Tools"="C:\\users\\zoeycluff\\Start Menu\\Programs\\Administrative Tools"
+"AppData"="C:\\users\\zoeycluff\\Application Data"
+"Cache"="C:\\users\\zoeycluff\\Local Settings\\Temporary Internet Files"
+"Cookies"="C:\\users\\zoeycluff\\Cookies"
+"Desktop"="C:\\users\\zoeycluff\\Desktop"
+"Favorites"="C:\\users\\zoeycluff\\Favorites"
 "Fonts"="C:\\windows\\Fonts"
-"History"="C:\\users\\gcenx\\Local Settings\\History"
-"Local AppData"="C:\\users\\gcenx\\Local Settings\\Application Data"
+"History"="C:\\users\\zoeycluff\\Local Settings\\History"
+"Local AppData"="C:\\users\\zoeycluff\\Local Settings\\Application Data"
 "My Music"="C:\\users\\gcenx\\My Music"
-"My Pictures"="C:\\users\\gcenx\\My Pictures"
+"My Pictures"="C:\\users\\zoeycluff\\My Pictures"
 "My Videos"="C:\\users\\gcenx\\My Videos"
-"NetHood"="C:\\users\\gcenx\\NetHood"
-"Personal"="C:\\users\\gcenx\\My Documents"
-"PrintHood"="C:\\users\\gcenx\\PrintHood"
-"Programs"="C:\\users\\gcenx\\Start Menu\\Programs"
-"Recent"="C:\\users\\gcenx\\Recent"
-"SendTo"="C:\\users\\gcenx\\SendTo"
-"Start Menu"="C:\\users\\gcenx\\Start Menu"
-"StartUp"="C:\\users\\gcenx\\Start Menu\\Programs\\StartUp"
-"Templates"="C:\\users\\gcenx\\Templates"
+"NetHood"="C:\\users\\zoeycluff\\NetHood"
+"Personal"="C:\\users\\zoeycluff\\My Documents"
+"PrintHood"="C:\\users\\zoeycluff\\PrintHood"
+"Programs"="C:\\users\\zoeycluff\\Start Menu\\Programs"
+"Recent"="C:\\users\\zoeycluff\\Recent"
+"SendTo"="C:\\users\\zoeycluff\\SendTo"
+"Start Menu"="C:\\users\\zoeycluff\\Start Menu"
+"StartUp"="C:\\users\\zoeycluff\\Start Menu\\Programs\\StartUp"
+"Templates"="C:\\users\\zoeycluff\\Templates"
 "{374DE290-123F-4565-9164-39C4925E467B}"="C:\\users\\gcenx\\Downloads"
 "{4C5C32FF-BB9D-43B0-B5B4-2D72E54EAAA4}"="C:\\users\\gcenx\\Saved Games"
 "{56784854-C6CB-462B-8169-88E350ACB882}"="C:\\users\\gcenx\\Contacts"
@@ -589,6 +659,18 @@ WINE REGISTRY Version 2
 #time=1d8aaa58670bcfe
 "ProgId"="https"
 
+[Software\\Microsoft\\Windows NT\\CurrentVersion\\Devices] 1659936611
+#time=1d8aae7ee4d1ede
+"EPSON_XP_630_Series"="wineps.drv,CUPS:EPSON_XP_630_Series"
+
+[Software\\Microsoft\\Windows NT\\CurrentVersion\\PrinterPorts] 1659936611
+#time=1d8aae7ee4d1fc4
+"EPSON_XP_630_Series"="wineps.drv,CUPS:EPSON_XP_630_Series,15,45"
+
+[Software\\Microsoft\\Windows NT\\CurrentVersion\\Windows] 1659936611
+#time=1d8aae7ee4ede9a
+"device"="EPSON_XP_630_Series,wineps.drv,CUPS:EPSON_XP_630_Series"
+
 [Software\\Microsoft\\Windows NT\\CurrentVersion\\Winlogon] 1659908090
 #time=1d8aaa5866fa814
 
@@ -603,6 +685,9 @@ WINE REGISTRY Version 2
 
 [Software\\Wine\\Crypto\\RSA\\gcenx] 1659908147
 #time=1d8aaa5a8241ce2
+
+[Software\\Wine\\Crypto\\RSA\\zoeycluff] 1659936608
+#time=1d8aae7ec48872c
 
 [Software\\Wine\\Debug] 1659908090
 #time=1d8aaa586701128
@@ -643,16 +728,19 @@ WINE REGISTRY Version 2
 "*vcruntime140"="native,builtin"
 "*vcruntime140_1"="native,builtin"
 
-[Software\\Wine\\Explorer\\Desktops] 1659908128
-#time=1d8aaa59d140998
+[Software\\Wine\\Explorer\\Desktops] 1659936607
+#time=1d8aae7eb8a6f12
 
-[Software\\Wine\\Fonts] 1659908376
-#time=1d8aaa630ec191c
+[Software\\Wine\\Fonts] 1659936608
+#time=1d8aae7ec096e7a
 "Codepages"="1252,437"
 "LogPixels"=dword:00000060
 
-[Software\\Wine\\Fonts\\External Fonts] 1659908376
-#time=1d8aaa630ed9332
+[Software\\Wine\\Fonts\\External Fonts] 1659936608
+#time=1d8aae7ec0e1e52
+"3270 Narrow (TrueType)"="Z:\\Users\\zoeycluff\\Library\\Fonts\\3270Narrow.ttf"
+"3270 Semi-Narrow (TrueType)"="Z:\\Users\\zoeycluff\\Library\\Fonts\\3270SemiNarrow.ttf"
+"3270-Medium (TrueType)"="Z:\\Users\\zoeycluff\\Library\\Fonts\\3270Medium.ttf"
 "@Apple SD Gothic Neo Regular (TrueType)"="Z:\\System\\Library\\Fonts\\AppleSDGothicNeo.ttc"
 "@Arial Unicode MS (TrueType)"="Z:\\System\\Library\\Fonts\\Supplemental\\Arial Unicode.ttf"
 "@Brush Script MT Italic (TrueType)"="Z:\\System\\Library\\Fonts\\Supplemental\\Brush Script.ttf"
@@ -677,7 +765,6 @@ WINE REGISTRY Version 2
 "@HiraMinPro-W6 (TrueType)"="Z:\\System\\Library\\Fonts\\\x30d2\x30e9\x30ae\x30ce\x660e\x671d ProN.ttc"
 "@HiraMinProN-W3 (TrueType)"="Z:\\System\\Library\\Fonts\\\x30d2\x30e9\x30ae\x30ce\x660e\x671d ProN.ttc"
 "@HiraMinProN-W6 (TrueType)"="Z:\\System\\Library\\Fonts\\\x30d2\x30e9\x30ae\x30ce\x660e\x671d ProN.ttc"
-"@LiSong Pro (TrueType)"="Z:\\System\\Library\\AssetsV2\\PreinstalledAssetsV2\\InstallWithOs\\com_apple_MobileAsset_Font6\\307932a557ced9e4eb367b3e74f66ac9b07f050d.asset\\AssetData\\LiSongPro.ttf"
 "@PingFang HK Light (TrueType)"="Z:\\System\\Library\\Fonts\\PingFang.ttc"
 "@PingFang HK Medium (TrueType)"="Z:\\System\\Library\\Fonts\\PingFang.ttc"
 "@PingFang HK Regular (TrueType)"="Z:\\System\\Library\\Fonts\\PingFang.ttc"
@@ -704,12 +791,6 @@ WINE REGISTRY Version 2
 "@Songti TC Light (TrueType)"="Z:\\System\\Library\\Fonts\\Supplemental\\Songti.ttc"
 "@Songti TC Regular (TrueType)"="Z:\\System\\Library\\Fonts\\Supplemental\\Songti.ttc"
 "@STSong (TrueType)"="Z:\\System\\Library\\Fonts\\Supplemental\\Songti.ttc"
-"@Yuanti SC Bold (TrueType)"="Z:\\System\\Library\\AssetsV2\\PreinstalledAssetsV2\\InstallWithOs\\com_apple_MobileAsset_Font6\\de2c8f9ec3bc6b016e26ba988b0455b0084d6238.asset\\AssetData\\Yuanti.ttc"
-"@Yuanti SC Light (TrueType)"="Z:\\System\\Library\\AssetsV2\\PreinstalledAssetsV2\\InstallWithOs\\com_apple_MobileAsset_Font6\\de2c8f9ec3bc6b016e26ba988b0455b0084d6238.asset\\AssetData\\Yuanti.ttc"
-"@Yuanti SC Regular (TrueType)"="Z:\\System\\Library\\AssetsV2\\PreinstalledAssetsV2\\InstallWithOs\\com_apple_MobileAsset_Font6\\de2c8f9ec3bc6b016e26ba988b0455b0084d6238.asset\\AssetData\\Yuanti.ttc"
-"@Yuanti TC Bold (TrueType)"="Z:\\System\\Library\\AssetsV2\\PreinstalledAssetsV2\\InstallWithOs\\com_apple_MobileAsset_Font6\\de2c8f9ec3bc6b016e26ba988b0455b0084d6238.asset\\AssetData\\Yuanti.ttc"
-"@Yuanti TC Light (TrueType)"="Z:\\System\\Library\\AssetsV2\\PreinstalledAssetsV2\\InstallWithOs\\com_apple_MobileAsset_Font6\\de2c8f9ec3bc6b016e26ba988b0455b0084d6238.asset\\AssetData\\Yuanti.ttc"
-"@Yuanti TC Regular (TrueType)"="Z:\\System\\Library\\AssetsV2\\PreinstalledAssetsV2\\InstallWithOs\\com_apple_MobileAsset_Font6\\de2c8f9ec3bc6b016e26ba988b0455b0084d6238.asset\\AssetData\\Yuanti.ttc"
 "Academy Engraved LET Plain:1.0 (TrueType)"="Z:\\System\\Library\\Fonts\\Supplemental\\Academy Engraved LET Fonts.ttf"
 "Al Bayan Plain (TrueType)"="Z:\\System\\Library\\Fonts\\Supplemental\\AlBayan.ttc"
 "Al Nile (TrueType)"="Z:\\System\\Library\\Fonts\\Supplemental\\Al Nile.ttc"
@@ -722,6 +803,10 @@ WINE REGISTRY Version 2
 "American Typewriter Light (TrueType)"="Z:\\System\\Library\\Fonts\\Supplemental\\AmericanTypewriter.ttc"
 "American Typewriter Semibold (TrueType)"="Z:\\System\\Library\\Fonts\\Supplemental\\AmericanTypewriter.ttc"
 "Andale Mono (TrueType)"="Z:\\System\\Library\\Fonts\\Supplemental\\Andale Mono.ttf"
+"Anonymice Powerline (TrueType)"="Z:\\Users\\zoeycluff\\Library\\Fonts\\Anonymice Powerline.ttf"
+"Anonymice Powerline Bold (TrueType)"="Z:\\Users\\zoeycluff\\Library\\Fonts\\Anonymice Powerline Bold.ttf"
+"Anonymice Powerline Bold Italic (TrueType)"="Z:\\Users\\zoeycluff\\Library\\Fonts\\Anonymice Powerline Bold Italic.ttf"
+"Anonymice Powerline Italic (TrueType)"="Z:\\Users\\zoeycluff\\Library\\Fonts\\Anonymice Powerline Italic.ttf"
 "Apple Braille (TrueType)"="Z:\\System\\Library\\Fonts\\Apple Braille.ttf"
 "Apple Braille Outline 6 Dot (TrueType)"="Z:\\System\\Library\\Fonts\\Apple Braille Outline 6 Dot.ttf"
 "Apple Braille Outline 8 Dot (TrueType)"="Z:\\System\\Library\\Fonts\\Apple Braille Outline 8 Dot.ttf"
@@ -745,6 +830,14 @@ WINE REGISTRY Version 2
 "Arial Narrow Italic (TrueType)"="Z:\\System\\Library\\Fonts\\Supplemental\\Arial Narrow Italic.ttf"
 "Arial Rounded MT Bold (TrueType)"="Z:\\System\\Library\\Fonts\\Supplemental\\Arial Rounded Bold.ttf"
 "Arial Unicode MS (TrueType)"="Z:\\System\\Library\\Fonts\\Supplemental\\Arial Unicode.ttf"
+"Arimo Bold for Powerline (TrueType)"="Z:\\Users\\zoeycluff\\Library\\Fonts\\Arimo Bold for Powerline.ttf"
+"Arimo Bold Italic for Powerline (TrueType)"="Z:\\Users\\zoeycluff\\Library\\Fonts\\Arimo Bold Italic for Powerline.ttf"
+"Arimo for Powerline (TrueType)"="Z:\\Users\\zoeycluff\\Library\\Fonts\\Arimo for Powerline.ttf"
+"Arimo Italic for Powerline (TrueType)"="Z:\\Users\\zoeycluff\\Library\\Fonts\\Arimo Italic for Powerline.ttf"
+"Artifakt Element Bold (TrueType)"="Z:\\Library\\Fonts\\Artifakt Element Bold.ttf"
+"Artifakt Element Bold Italic (TrueType)"="Z:\\Library\\Fonts\\Artifakt Element Bold Italic.ttf"
+"Artifakt Element Italic (TrueType)"="Z:\\Library\\Fonts\\Artifakt Element Italic.ttf"
+"ArtifaktElement-Regular (TrueType)"="Z:\\Library\\Fonts\\Artifakt Element Regular.ttf"
 "Avenir Black (TrueType)"="Z:\\System\\Library\\Fonts\\Avenir.ttc"
 "Avenir Black Oblique (TrueType)"="Z:\\System\\Library\\Fonts\\Avenir.ttc"
 "Avenir Book (TrueType)"="Z:\\System\\Library\\Fonts\\Avenir.ttc"
@@ -832,8 +925,17 @@ WINE REGISTRY Version 2
 "Courier New Bold (TrueType)"="Z:\\System\\Library\\Fonts\\Supplemental\\Courier New Bold.ttf"
 "Courier New Bold Italic (TrueType)"="Z:\\System\\Library\\Fonts\\Supplemental\\Courier New Bold Italic.ttf"
 "Courier New Italic (TrueType)"="Z:\\System\\Library\\Fonts\\Supplemental\\Courier New Italic.ttf"
+"Cousine Bold for Powerline (TrueType)"="Z:\\Users\\zoeycluff\\Library\\Fonts\\Cousine Bold for Powerline.ttf"
+"Cousine Bold Italic for Powerline (TrueType)"="Z:\\Users\\zoeycluff\\Library\\Fonts\\Cousine Bold Italic for Powerline.ttf"
+"Cousine for Powerline (TrueType)"="Z:\\Users\\zoeycluff\\Library\\Fonts\\Cousine for Powerline.ttf"
+"Cousine Italic for Powerline (TrueType)"="Z:\\Users\\zoeycluff\\Library\\Fonts\\Cousine Italic for Powerline.ttf"
+"DaddyTimeMono (TrueType)"="Z:\\Users\\zoeycluff\\Library\\Fonts\\DaddyTimeMono.otf"
 "Damascus Regular (TrueType)"="Z:\\System\\Library\\Fonts\\Supplemental\\Damascus.ttc"
 "DecoType Naskh Regular (TrueType)"="Z:\\System\\Library\\Fonts\\Supplemental\\DecoTypeNaskh.ttc"
+"DejaVu Sans Mono for Powerline (TrueType)"="Z:\\Users\\zoeycluff\\Library\\Fonts\\DejaVu Sans Mono for Powerline.ttf"
+"DejaVu Sans Mono for Powerline Bold (TrueType)"="Z:\\Users\\zoeycluff\\Library\\Fonts\\DejaVu Sans Mono Bold for Powerline.ttf"
+"DejaVu Sans Mono for Powerline Bold Oblique (TrueType)"="Z:\\Users\\zoeycluff\\Library\\Fonts\\DejaVu Sans Mono Bold Oblique for Powerline.ttf"
+"DejaVu Sans Mono for Powerline Oblique (TrueType)"="Z:\\Users\\zoeycluff\\Library\\Fonts\\DejaVu Sans Mono Oblique for Powerline.ttf"
 "Devanagari MT (TrueType)"="Z:\\System\\Library\\Fonts\\Supplemental\\DevanagariMT.ttc"
 "Devanagari MT Bold (TrueType)"="Z:\\System\\Library\\Fonts\\Supplemental\\DevanagariMT.ttc"
 "Devanagari Sangam MN (TrueType)"="Z:\\System\\Library\\Fonts\\Supplemental\\Devanagari Sangam MN.ttc"
@@ -845,11 +947,23 @@ WINE REGISTRY Version 2
 "DIN Condensed Bold (TrueType)"="Z:\\System\\Library\\Fonts\\Supplemental\\DIN Condensed Bold.ttf"
 "Diwan Kufi Regular (TrueType)"="Z:\\System\\Library\\Fonts\\Supplemental\\Diwan Kufi.ttc"
 "Diwan Thuluth Regular (TrueType)"="Z:\\System\\Library\\Fonts\\Supplemental\\Diwan Thuluth.ttf"
+"Droid Sans Mono Dotted for Powerline (TrueType)"="Z:\\Users\\zoeycluff\\Library\\Fonts\\Droid Sans Mono Dotted for Powerline.ttf"
+"Droid Sans Mono for Powerline (TrueType)"="Z:\\Users\\zoeycluff\\Library\\Fonts\\Droid Sans Mono for Powerline.otf"
+"Droid Sans Mono Slashed for Powerline (TrueType)"="Z:\\Users\\zoeycluff\\Library\\Fonts\\Droid Sans Mono Slashed for Powerline.ttf"
 "Euphemia UCAS (TrueType)"="Z:\\System\\Library\\Fonts\\Supplemental\\EuphemiaCAS.ttc"
 "Euphemia UCAS Bold (TrueType)"="Z:\\System\\Library\\Fonts\\Supplemental\\EuphemiaCAS.ttc"
 "Euphemia UCAS Italic (TrueType)"="Z:\\System\\Library\\Fonts\\Supplemental\\EuphemiaCAS.ttc"
 "Farah Regular (TrueType)"="Z:\\System\\Library\\Fonts\\Supplemental\\Farah.ttc"
 "Farisi Regular (TrueType)"="Z:\\System\\Library\\Fonts\\Supplemental\\Farisi.ttf"
+"Fira Code Bold (TrueType)"="Z:\\Users\\zoeycluff\\Library\\Fonts\\FiraCode-Bold.ttf"
+"Fira Code Light (TrueType)"="Z:\\Users\\zoeycluff\\Library\\Fonts\\FiraCode-Light.ttf"
+"Fira Code Medium (TrueType)"="Z:\\Users\\zoeycluff\\Library\\Fonts\\FiraCode-Medium.ttf"
+"Fira Code Regular (TrueType)"="Z:\\Users\\zoeycluff\\Library\\Fonts\\FiraCode-Regular.ttf"
+"Fira Code Retina (TrueType)"="Z:\\Users\\zoeycluff\\Library\\Fonts\\FiraCode-Retina.ttf"
+"Fira Code SemiBold (TrueType)"="Z:\\Users\\zoeycluff\\Library\\Fonts\\FiraCode-SemiBold.ttf"
+"Fira Mono (TrueType)"="Z:\\Users\\zoeycluff\\Library\\Fonts\\FuraMono-Regular Powerline.otf"
+"Fira Mono Bold for Powerline (TrueType)"="Z:\\Users\\zoeycluff\\Library\\Fonts\\FuraMono-Bold Powerline.otf"
+"Fira Mono Medium for Powerline (TrueType)"="Z:\\Users\\zoeycluff\\Library\\Fonts\\FuraMono-Medium Powerline.otf"
 "Futura Bold (TrueType)"="Z:\\System\\Library\\Fonts\\Supplemental\\Futura.ttc"
 "Futura Condensed ExtraBold (TrueType)"="Z:\\System\\Library\\Fonts\\Supplemental\\Futura.ttc"
 "Futura Condensed Medium (TrueType)"="Z:\\System\\Library\\Fonts\\Supplemental\\Futura.ttc"
@@ -859,10 +973,9 @@ WINE REGISTRY Version 2
 "Galvji Oblique (TrueType)"="Z:\\System\\Library\\Fonts\\Supplemental\\Galvji.ttc"
 "Galvji-Bold (TrueType)"="Z:\\System\\Library\\Fonts\\Supplemental\\Galvji.ttc"
 "Galvji-BoldOblique (TrueType)"="Z:\\System\\Library\\Fonts\\Supplemental\\Galvji.ttc"
-"GB18030 Bitmap"="Z:\\System\\Library\\Fonts\\Supplemental\\NISC18030.ttf"
 "Geeza Pro Bold (TrueType)"="Z:\\System\\Library\\Fonts\\GeezaPro.ttc"
 "Geeza Pro Regular (TrueType)"="Z:\\System\\Library\\Fonts\\GeezaPro.ttc"
-"Geneva (TrueType)"="Z:\\System\\Library\\Fonts\\Geneva.dfont"
+"Geneva (TrueType)"="Z:\\System\\Library\\Fonts\\Geneva.ttf"
 "Georgia (TrueType)"="Z:\\System\\Library\\Fonts\\Supplemental\\Georgia.ttf"
 "Georgia Bold (TrueType)"="Z:\\System\\Library\\Fonts\\Supplemental\\Georgia Bold.ttf"
 "Georgia Bold Italic (TrueType)"="Z:\\System\\Library\\Fonts\\Supplemental\\Georgia Bold Italic.ttf"
@@ -876,6 +989,10 @@ WINE REGISTRY Version 2
 "Gill Sans SemiBold (TrueType)"="Z:\\System\\Library\\Fonts\\Supplemental\\GillSans.ttc"
 "Gill Sans SemiBold Italic (TrueType)"="Z:\\System\\Library\\Fonts\\Supplemental\\GillSans.ttc"
 "Gill Sans UltraBold (TrueType)"="Z:\\System\\Library\\Fonts\\Supplemental\\GillSans.ttc"
+"Go Mono Bold for Powerline (TrueType)"="Z:\\Users\\zoeycluff\\Library\\Fonts\\Go Mono Bold for Powerline.ttf"
+"Go Mono Bold Italic for Powerline (TrueType)"="Z:\\Users\\zoeycluff\\Library\\Fonts\\Go Mono Bold Italic for Powerline.ttf"
+"Go Mono for Powerline (TrueType)"="Z:\\Users\\zoeycluff\\Library\\Fonts\\Go Mono for Powerline.ttf"
+"Go Mono Italic for Powerline (TrueType)"="Z:\\Users\\zoeycluff\\Library\\Fonts\\Go Mono Italic for Powerline.ttf"
 "Grantha Sangam MN Bold (TrueType)"="Z:\\System\\Library\\Fonts\\Supplemental\\Tamil Sangam MN.ttc"
 "Grantha Sangam MN Regular (TrueType)"="Z:\\System\\Library\\Fonts\\Supplemental\\Tamil Sangam MN.ttc"
 "Gujarati MT (TrueType)"="Z:\\System\\Library\\Fonts\\Supplemental\\GujaratiMT.ttc"
@@ -887,6 +1004,10 @@ WINE REGISTRY Version 2
 "Gurmukhi MT (TrueType)"="Z:\\System\\Library\\Fonts\\Supplemental\\Gurmukhi.ttf"
 "Gurmukhi Sangam MN (TrueType)"="Z:\\System\\Library\\Fonts\\Supplemental\\Gurmukhi Sangam MN.ttc"
 "Gurmukhi Sangam MN Bold (TrueType)"="Z:\\System\\Library\\Fonts\\Supplemental\\Gurmukhi Sangam MN.ttc"
+"Hack Bold (TrueType)"="Z:\\Users\\zoeycluff\\Library\\Fonts\\Hack-Bold.ttf"
+"Hack Bold Italic (TrueType)"="Z:\\Users\\zoeycluff\\Library\\Fonts\\Hack-BoldItalic.ttf"
+"Hack Italic (TrueType)"="Z:\\Users\\zoeycluff\\Library\\Fonts\\Hack-Italic.ttf"
+"Hack Regular (TrueType)"="Z:\\Users\\zoeycluff\\Library\\Fonts\\Hack-Regular.ttf"
 "Heiti SC Light (TrueType)"="Z:\\System\\Library\\Fonts\\STHeiti Light.ttc"
 "Heiti SC Medium (TrueType)"="Z:\\System\\Library\\Fonts\\STHeiti Medium.ttc"
 "Heiti TC Light (TrueType)"="Z:\\System\\Library\\Fonts\\STHeiti Light.ttc"
@@ -937,6 +1058,10 @@ WINE REGISTRY Version 2
 "Impact (TrueType)"="Z:\\System\\Library\\Fonts\\Supplemental\\Impact.ttf"
 "InaiMathi (TrueType)"="Z:\\System\\Library\\Fonts\\Supplemental\\InaiMathi-MN.ttc"
 "InaiMathi Bold (TrueType)"="Z:\\System\\Library\\Fonts\\Supplemental\\InaiMathi-MN.ttc"
+"Inconsolata Bold for Powerline (TrueType)"="Z:\\Users\\zoeycluff\\Library\\Fonts\\Inconsolata Bold for Powerline.ttf"
+"Inconsolata for Powerline (TrueType)"="Z:\\Users\\zoeycluff\\Library\\Fonts\\Inconsolata for Powerline.otf"
+"Inconsolata-dz for Powerline (TrueType)"="Z:\\Users\\zoeycluff\\Library\\Fonts\\Inconsolata-dz for Powerline.otf"
+"Inconsolata-g for Powerline (TrueType)"="Z:\\Users\\zoeycluff\\Library\\Fonts\\Inconsolata-g for Powerline.otf"
 "ITF Devanagari Marathi Medium (TrueType)"="Z:\\System\\Library\\Fonts\\Supplemental\\ITFDevanagari.ttc"
 "ITFDevanagari Marathi Light (TrueType)"="Z:\\System\\Library\\Fonts\\Supplemental\\ITFDevanagari.ttc"
 "ITFDevanagari Marathi-Bold (TrueType)"="Z:\\System\\Library\\Fonts\\Supplemental\\ITFDevanagari.ttc"
@@ -984,7 +1109,10 @@ WINE REGISTRY Version 2
 "Lao MN (TrueType)"="Z:\\System\\Library\\Fonts\\Supplemental\\Lao MN.ttc"
 "Lao MN Bold (TrueType)"="Z:\\System\\Library\\Fonts\\Supplemental\\Lao MN.ttc"
 "Lao Sangam MN (TrueType)"="Z:\\System\\Library\\Fonts\\Supplemental\\Lao Sangam MN.ttf"
-"LiSong Pro (TrueType)"="Z:\\System\\Library\\AssetsV2\\PreinstalledAssetsV2\\InstallWithOs\\com_apple_MobileAsset_Font6\\307932a557ced9e4eb367b3e74f66ac9b07f050d.asset\\AssetData\\LiSongPro.ttf"
+"Literation Mono Powerline (TrueType)"="Z:\\Users\\zoeycluff\\Library\\Fonts\\Literation Mono Powerline.ttf"
+"Literation Mono Powerline Bold (TrueType)"="Z:\\Users\\zoeycluff\\Library\\Fonts\\Literation Mono Powerline Bold.ttf"
+"Literation Mono Powerline Bold Italic (TrueType)"="Z:\\Users\\zoeycluff\\Library\\Fonts\\Literation Mono Powerline Bold Italic.ttf"
+"Literation Mono Powerline Italic (TrueType)"="Z:\\Users\\zoeycluff\\Library\\Fonts\\Literation Mono Powerline Italic.ttf"
 "Lucida Grande (TrueType)"="Z:\\System\\Library\\Fonts\\LucidaGrande.ttc"
 "Lucida Grande Bold (TrueType)"="Z:\\System\\Library\\Fonts\\LucidaGrande.ttc"
 "Luminari (TrueType)"="Z:\\System\\Library\\Fonts\\Supplemental\\Luminari.ttf"
@@ -994,15 +1122,48 @@ WINE REGISTRY Version 2
 "Malayalam Sangam MN Bold (TrueType)"="Z:\\System\\Library\\Fonts\\Supplemental\\Malayalam Sangam MN.ttc"
 "Marker Felt Thin (TrueType)"="Z:\\System\\Library\\Fonts\\MarkerFelt.ttc"
 "Marker Felt Wide (TrueType)"="Z:\\System\\Library\\Fonts\\MarkerFelt.ttc"
-"Marlett (TrueType)"="Z:\\Users\\gcenx\\Documents\\GitHub\\Sims4-wineskin-build\\Sims4.app\\Contents\\SharedSupport\\wine\\share\\wine\\fonts\\marlett.ttf"
+"Marlett (TrueType)"="Z:\\Users\\zoeycluff\\Nextcloud2\\Projects\\Sims4-wineskin-build\\TEMPLATE.app\\Contents\\SharedSupport\\wine\\share\\wine\\fonts\\marlett.ttf"
 "Menlo Bold (TrueType)"="Z:\\System\\Library\\Fonts\\Menlo.ttc"
 "Menlo Bold Italic (TrueType)"="Z:\\System\\Library\\Fonts\\Menlo.ttc"
 "Menlo Italic (TrueType)"="Z:\\System\\Library\\Fonts\\Menlo.ttc"
 "Menlo Regular (TrueType)"="Z:\\System\\Library\\Fonts\\Menlo.ttc"
+"Meslo LG L Bold for Powerline (TrueType)"="Z:\\Users\\zoeycluff\\Library\\Fonts\\Meslo LG L Bold for Powerline.ttf"
+"Meslo LG L Bold Italic for Powerline (TrueType)"="Z:\\Users\\zoeycluff\\Library\\Fonts\\Meslo LG L Bold Italic for Powerline.ttf"
+"Meslo LG L DZ Bold for Powerline (TrueType)"="Z:\\Users\\zoeycluff\\Library\\Fonts\\Meslo LG L DZ Bold for Powerline.ttf"
+"Meslo LG L DZ Bold Italic for Powerline (TrueType)"="Z:\\Users\\zoeycluff\\Library\\Fonts\\Meslo LG L DZ Bold Italic for Powerline.ttf"
+"Meslo LG L DZ Italic for Powerline (TrueType)"="Z:\\Users\\zoeycluff\\Library\\Fonts\\Meslo LG L DZ Italic for Powerline.ttf"
+"Meslo LG L DZ Regular for Powerline (TrueType)"="Z:\\Users\\zoeycluff\\Library\\Fonts\\Meslo LG L DZ Regular for Powerline.ttf"
+"Meslo LG L Italic for Powerline (TrueType)"="Z:\\Users\\zoeycluff\\Library\\Fonts\\Meslo LG L Italic for Powerline.ttf"
+"Meslo LG L Regular for Powerline (TrueType)"="Z:\\Users\\zoeycluff\\Library\\Fonts\\Meslo LG L Regular for Powerline.ttf"
+"Meslo LG M Bold for Powerline (TrueType)"="Z:\\Users\\zoeycluff\\Library\\Fonts\\Meslo LG M Bold for Powerline.ttf"
+"Meslo LG M Bold Italic for Powerline (TrueType)"="Z:\\Users\\zoeycluff\\Library\\Fonts\\Meslo LG M Bold Italic for Powerline.ttf"
+"Meslo LG M DZ Bold for Powerline (TrueType)"="Z:\\Users\\zoeycluff\\Library\\Fonts\\Meslo LG M DZ Bold for Powerline.ttf"
+"Meslo LG M DZ Bold Italic for Powerline (TrueType)"="Z:\\Users\\zoeycluff\\Library\\Fonts\\Meslo LG M DZ Bold Italic for Powerline.ttf"
+"Meslo LG M DZ Italic for Powerline (TrueType)"="Z:\\Users\\zoeycluff\\Library\\Fonts\\Meslo LG M DZ Italic for Powerline.ttf"
+"Meslo LG M DZ Regular for Powerline (TrueType)"="Z:\\Users\\zoeycluff\\Library\\Fonts\\Meslo LG M DZ Regular for Powerline.ttf"
+"Meslo LG M Italic for Powerline (TrueType)"="Z:\\Users\\zoeycluff\\Library\\Fonts\\Meslo LG M Italic for Powerline.ttf"
+"Meslo LG M Regular for Powerline (TrueType)"="Z:\\Users\\zoeycluff\\Library\\Fonts\\Meslo LG M Regular for Powerline.ttf"
+"Meslo LG S Bold for Powerline (TrueType)"="Z:\\Users\\zoeycluff\\Library\\Fonts\\Meslo LG S Bold for Powerline.ttf"
+"Meslo LG S Bold Italic for Powerline (TrueType)"="Z:\\Users\\zoeycluff\\Library\\Fonts\\Meslo LG S Bold Italic for Powerline.ttf"
+"Meslo LG S DZ Bold for Powerline (TrueType)"="Z:\\Users\\zoeycluff\\Library\\Fonts\\Meslo LG S DZ Bold for Powerline.ttf"
+"Meslo LG S DZ Bold Italic for Powerline (TrueType)"="Z:\\Users\\zoeycluff\\Library\\Fonts\\Meslo LG S DZ Bold Italic for Powerline.ttf"
+"Meslo LG S DZ Italic for Powerline (TrueType)"="Z:\\Users\\zoeycluff\\Library\\Fonts\\Meslo LG S DZ Italic for Powerline.ttf"
+"Meslo LG S DZ Regular for Powerline (TrueType)"="Z:\\Users\\zoeycluff\\Library\\Fonts\\Meslo LG S DZ Regular for Powerline.ttf"
+"Meslo LG S Italic for Powerline (TrueType)"="Z:\\Users\\zoeycluff\\Library\\Fonts\\Meslo LG S Italic for Powerline.ttf"
+"Meslo LG S Regular for Powerline (TrueType)"="Z:\\Users\\zoeycluff\\Library\\Fonts\\Meslo LG S Regular for Powerline.ttf"
+"MesloLGS NF Bold (TrueType)"="Z:\\Users\\zoeycluff\\Library\\Fonts\\MesloLGS NF Bold.ttf"
+"MesloLGS NF Bold Italic (TrueType)"="Z:\\Users\\zoeycluff\\Library\\Fonts\\MesloLGS NF Bold Italic.ttf"
+"MesloLGS NF Italic (TrueType)"="Z:\\Users\\zoeycluff\\Library\\Fonts\\MesloLGS NF Italic.ttf"
+"MesloLGS NF Regular (TrueType)"="Z:\\Users\\zoeycluff\\Library\\Fonts\\MesloLGS NF Regular.ttf"
 "Microsoft Sans Serif (TrueType)"="Z:\\System\\Library\\Fonts\\Supplemental\\Microsoft Sans Serif.ttf"
 "Mishafi Gold Regular (TrueType)"="Z:\\System\\Library\\Fonts\\Supplemental\\Mishafi Gold.ttf"
 "Mishafi Regular (TrueType)"="Z:\\System\\Library\\Fonts\\Supplemental\\Mishafi.ttf"
-"Monaco (TrueType)"="Z:\\System\\Library\\Fonts\\Monaco.dfont"
+"MOMCAKE Bold (TrueType)"="Z:\\Users\\zoeycluff\\Library\\Fonts\\MOMCAKE-Bold.otf"
+"MOMCAKE Thin (TrueType)"="Z:\\Users\\zoeycluff\\Library\\Fonts\\MOMCAKE-Thin.otf"
+"Monaco (TrueType)"="Z:\\System\\Library\\Fonts\\Monaco.ttf"
+"monofur   bold for Powerline (TrueType)"="Z:\\Users\\zoeycluff\\Library\\Fonts\\Monofur Bold for Powerline.ttf"
+"monofur   italic for Powerline (TrueType)"="Z:\\Users\\zoeycluff\\Library\\Fonts\\Monofur Italic for Powerline.ttf"
+"monofur for Powerline (TrueType)"="Z:\\Users\\zoeycluff\\Library\\Fonts\\Monofur for Powerline.ttf"
 "Mshtakan (TrueType)"="Z:\\System\\Library\\Fonts\\Supplemental\\Mshtakan.ttc"
 "Mshtakan Bold (TrueType)"="Z:\\System\\Library\\Fonts\\Supplemental\\Mshtakan.ttc"
 "Mshtakan BoldOblique (TrueType)"="Z:\\System\\Library\\Fonts\\Supplemental\\Mshtakan.ttc"
@@ -1026,6 +1187,7 @@ WINE REGISTRY Version 2
 "New Peninim MT Inclined (TrueType)"="Z:\\System\\Library\\Fonts\\Supplemental\\NewPeninimMT.ttc"
 "Noteworthy Bold (TrueType)"="Z:\\System\\Library\\Fonts\\Noteworthy.ttc"
 "Noteworthy Light (TrueType)"="Z:\\System\\Library\\Fonts\\Noteworthy.ttc"
+"Noto Mono for Powerline (TrueType)"="Z:\\Users\\zoeycluff\\Library\\Fonts\\Noto Mono for Powerline.ttf"
 "Noto Nastaliq Urdu (TrueType)"="Z:\\System\\Library\\Fonts\\NotoNastaliq.ttc"
 "Noto Sans Kannada Black (TrueType)"="Z:\\System\\Library\\Fonts\\NotoSansKannada.ttc"
 "Noto Sans Kannada Bold (TrueType)"="Z:\\System\\Library\\Fonts\\NotoSansKannada.ttc"
@@ -1065,6 +1227,7 @@ WINE REGISTRY Version 2
 "Noto Serif Myanmar Regular (TrueType)"="Z:\\System\\Library\\Fonts\\NotoSerifMyanmar.ttc"
 "Noto Serif Myanmar SemiBold (TrueType)"="Z:\\System\\Library\\Fonts\\NotoSerifMyanmar.ttc"
 "Noto Serif Myanmar Thin (TrueType)"="Z:\\System\\Library\\Fonts\\NotoSerifMyanmar.ttc"
+"NovaMono for Powerline (TrueType)"="Z:\\Users\\zoeycluff\\Library\\Fonts\\NovaMono for Powerline.ttf"
 "Optima Bold (TrueType)"="Z:\\System\\Library\\Fonts\\Optima.ttc"
 "Optima Bold Italic (TrueType)"="Z:\\System\\Library\\Fonts\\Optima.ttc"
 "Optima ExtraBlack (TrueType)"="Z:\\System\\Library\\Fonts\\Optima.ttc"
@@ -1102,6 +1265,8 @@ WINE REGISTRY Version 2
 "PingFang TC Thin (TrueType)"="Z:\\System\\Library\\Fonts\\PingFang.ttc"
 "PingFang TC Ultralight (TrueType)"="Z:\\System\\Library\\Fonts\\PingFang.ttc"
 "Plantagenet Cherokee (TrueType)"="Z:\\System\\Library\\Fonts\\Supplemental\\PlantagenetCherokee.ttf"
+"ProFont Bold for Powerline (TrueType)"="Z:\\Users\\zoeycluff\\Library\\Fonts\\ProFont Bold For Powerline.ttf"
+"ProFont for Powerline (TrueType)"="Z:\\Users\\zoeycluff\\Library\\Fonts\\ProFont For Powerline.ttf"
 "PT Mono (TrueType)"="Z:\\System\\Library\\Fonts\\Supplemental\\PTMono.ttc"
 "PT Mono Bold (TrueType)"="Z:\\System\\Library\\Fonts\\Supplemental\\PTMono.ttc"
 "PT Sans (TrueType)"="Z:\\System\\Library\\Fonts\\Supplemental\\PTSans.ttc"
@@ -1120,6 +1285,16 @@ WINE REGISTRY Version 2
 "PT Serif Italic (TrueType)"="Z:\\System\\Library\\Fonts\\Supplemental\\PTSerif.ttc"
 "Raanana (TrueType)"="Z:\\System\\Library\\Fonts\\Supplemental\\Raanana.ttc"
 "Raanana Bold (TrueType)"="Z:\\System\\Library\\Fonts\\Supplemental\\Raanana.ttc"
+"Roboto Mono Bold for Powerline (TrueType)"="Z:\\Users\\zoeycluff\\Library\\Fonts\\Roboto Mono Bold for Powerline.ttf"
+"Roboto Mono Bold Italic for Powerline (TrueType)"="Z:\\Users\\zoeycluff\\Library\\Fonts\\Roboto Mono Bold Italic for Powerline.ttf"
+"Roboto Mono for Powerline (TrueType)"="Z:\\Users\\zoeycluff\\Library\\Fonts\\Roboto Mono for Powerline.ttf"
+"Roboto Mono Italic for Powerline (TrueType)"="Z:\\Users\\zoeycluff\\Library\\Fonts\\Roboto Mono Italic for Powerline.ttf"
+"Roboto Mono Light for Powerline (TrueType)"="Z:\\Users\\zoeycluff\\Library\\Fonts\\Roboto Mono Light for Powerline.ttf"
+"Roboto Mono Light Italic for Powerline (TrueType)"="Z:\\Users\\zoeycluff\\Library\\Fonts\\Roboto Mono Light Italic for Powerline.ttf"
+"Roboto Mono Medium for Powerline (TrueType)"="Z:\\Users\\zoeycluff\\Library\\Fonts\\Roboto Mono Medium for Powerline.ttf"
+"Roboto Mono Medium Italic for Powerline (TrueType)"="Z:\\Users\\zoeycluff\\Library\\Fonts\\Roboto Mono Medium Italic for Powerline.ttf"
+"Roboto Mono Thin for Powerline (TrueType)"="Z:\\Users\\zoeycluff\\Library\\Fonts\\Roboto Mono Thin for Powerline.ttf"
+"Roboto Mono Thin Italic for Powerline (TrueType)"="Z:\\Users\\zoeycluff\\Library\\Fonts\\Roboto Mono Thin Italic for Powerline.ttf"
 "Rockwell (TrueType)"="Z:\\System\\Library\\Fonts\\Supplemental\\Rockwell.ttc"
 "Rockwell Bold Italic (TrueType)"="Z:\\System\\Library\\Fonts\\Supplemental\\Rockwell.ttc"
 "Rockwell Italic (TrueType)"="Z:\\System\\Library\\Fonts\\Supplemental\\Rockwell.ttc"
@@ -1149,6 +1324,31 @@ WINE REGISTRY Version 2
 "Songti TC Bold (TrueType)"="Z:\\System\\Library\\Fonts\\Supplemental\\Songti.ttc"
 "Songti TC Light (TrueType)"="Z:\\System\\Library\\Fonts\\Supplemental\\Songti.ttc"
 "Songti TC Regular (TrueType)"="Z:\\System\\Library\\Fonts\\Supplemental\\Songti.ttc"
+"Source Code Pro Black for Powerline (TrueType)"="Z:\\Users\\zoeycluff\\Library\\Fonts\\Source Code Pro Black for Powerline.otf"
+"Source Code Pro Black Italic for Powerline (TrueType)"="Z:\\Users\\zoeycluff\\Library\\Fonts\\Source Code Pro Powerline BlackItalic.otf"
+"Source Code Pro Bold for Powerline (TrueType)"="Z:\\Users\\zoeycluff\\Library\\Fonts\\Source Code Pro Bold for Powerline.otf"
+"Source Code Pro Bold Italic for Powerline (TrueType)"="Z:\\Users\\zoeycluff\\Library\\Fonts\\Source Code Pro Powerline BoldItalic.otf"
+"Source Code Pro ExtraLight for Powerline (TrueType)"="Z:\\Users\\zoeycluff\\Library\\Fonts\\Source Code Pro ExtraLight for Powerline.otf"
+"Source Code Pro ExtraLight Italic for Powerline (TrueType)"="Z:\\Users\\zoeycluff\\Library\\Fonts\\Source Code Pro Powerline ExtraLightItalic.otf"
+"Source Code Pro for Powerline (TrueType)"="Z:\\Users\\zoeycluff\\Library\\Fonts\\Source Code Pro for Powerline.otf"
+"Source Code Pro Italic for Powerline (TrueType)"="Z:\\Users\\zoeycluff\\Library\\Fonts\\Source Code Pro Powerline Italic.otf"
+"Source Code Pro Light for Powerline (TrueType)"="Z:\\Users\\zoeycluff\\Library\\Fonts\\Source Code Pro Light for Powerline.otf"
+"Source Code Pro Light Italic for Powerline (TrueType)"="Z:\\Users\\zoeycluff\\Library\\Fonts\\Source Code Pro Powerline LightItalic.otf"
+"Source Code Pro Medium for Powerline (TrueType)"="Z:\\Users\\zoeycluff\\Library\\Fonts\\Source Code Pro Medium for Powerline.otf"
+"Source Code Pro Medium Italic for Powerline (TrueType)"="Z:\\Users\\zoeycluff\\Library\\Fonts\\Source Code Pro Powerline MediumItalic.otf"
+"Source Code Pro Semibold for Powerline (TrueType)"="Z:\\Users\\zoeycluff\\Library\\Fonts\\Source Code Pro Semibold for Powerline.otf"
+"Source Code Pro Semibold Italic for Powerline (TrueType)"="Z:\\Users\\zoeycluff\\Library\\Fonts\\Source Code Pro Powerline SemiboldItalic.otf"
+"Space Mono (TrueType)"="Z:\\Users\\zoeycluff\\Library\\Fonts\\SpaceMono-Regular.ttf"
+"Space Mono Bold (TrueType)"="Z:\\Users\\zoeycluff\\Library\\Fonts\\SpaceMono-Bold.ttf"
+"Space Mono Bold for Powerline (TrueType)"="Z:\\Users\\zoeycluff\\Library\\Fonts\\Space Mono Bold for Powerline.ttf"
+"Space Mono Bold Italic (TrueType)"="Z:\\Users\\zoeycluff\\Library\\Fonts\\SpaceMono-BoldItalic.ttf"
+"Space Mono Bold Italic for Powerline (TrueType)"="Z:\\Users\\zoeycluff\\Library\\Fonts\\Space Mono Bold Italic for Powerline.ttf"
+"Space Mono for Powerline (TrueType)"="Z:\\Users\\zoeycluff\\Library\\Fonts\\Space Mono for Powerline.ttf"
+"Space Mono Italic (TrueType)"="Z:\\Users\\zoeycluff\\Library\\Fonts\\SpaceMono-Italic.ttf"
+"Space Mono Italic for Powerline (TrueType)"="Z:\\Users\\zoeycluff\\Library\\Fonts\\Space Mono Italic for Powerline.ttf"
+"STIX Two Math Regular (TrueType)"="Z:\\System\\Library\\Fonts\\Supplemental\\STIXTwoMath.otf"
+"STIX Two Text (TrueType)"="Z:\\System\\Library\\Fonts\\Supplemental\\STIXTwoText.ttf"
+"STIX Two Text Italic (TrueType)"="Z:\\System\\Library\\Fonts\\Supplemental\\STIXTwoText-Italic.ttf"
 "STIXGeneral-Bold (TrueType)"="Z:\\System\\Library\\Fonts\\Supplemental\\STIXGeneralBol.otf"
 "STIXGeneral-BoldItalic (TrueType)"="Z:\\System\\Library\\Fonts\\Supplemental\\STIXGeneralBolIta.otf"
 "STIXGeneral-Italic (TrueType)"="Z:\\System\\Library\\Fonts\\Supplemental\\STIXGeneralItalic.otf"
@@ -1185,7 +1385,8 @@ WINE REGISTRY Version 2
 "SukhumvitSet-SemiBold (TrueType)"="Z:\\System\\Library\\Fonts\\Supplemental\\SukhumvitSet.ttc"
 "SukhumvitSet-Text (TrueType)"="Z:\\System\\Library\\Fonts\\Supplemental\\SukhumvitSet.ttc"
 "SukhumvitSet-Thin (TrueType)"="Z:\\System\\Library\\Fonts\\Supplemental\\SukhumvitSet.ttc"
-"Symbol (TrueType)"="Z:\\Users\\gcenx\\Documents\\GitHub\\Sims4-wineskin-build\\Sims4.app\\Contents\\SharedSupport\\wine\\share\\wine\\fonts\\symbol.ttf"
+"Symbol (TrueType)"="Z:\\Users\\zoeycluff\\Nextcloud2\\Projects\\Sims4-wineskin-build\\TEMPLATE.app\\Contents\\SharedSupport\\wine\\share\\wine\\fonts\\symbol.ttf"
+"Symbol Neu for Powerline (TrueType)"="Z:\\Users\\zoeycluff\\Library\\Fonts\\Symbol Neu for Powerline.ttf"
 "Tahoma (TrueType)"="Z:\\System\\Library\\Fonts\\Supplemental\\Tahoma.ttf"
 "Tahoma Bold (TrueType)"="Z:\\System\\Library\\Fonts\\Supplemental\\Tahoma Bold.ttf"
 "Tamil MN (TrueType)"="Z:\\System\\Library\\Fonts\\Supplemental\\Tamil MN.ttc"
@@ -1196,9 +1397,9 @@ WINE REGISTRY Version 2
 "Telugu MN Bold (TrueType)"="Z:\\System\\Library\\Fonts\\Supplemental\\Telugu MN.ttc"
 "Telugu Sangam MN (TrueType)"="Z:\\System\\Library\\Fonts\\Supplemental\\Telugu Sangam MN.ttc"
 "Telugu Sangam MN Bold (TrueType)"="Z:\\System\\Library\\Fonts\\Supplemental\\Telugu Sangam MN.ttc"
-"Thonburi (TrueType)"="Z:\\System\\Library\\Fonts\\Thonburi.ttc"
-"Thonburi Bold (TrueType)"="Z:\\System\\Library\\Fonts\\Thonburi.ttc"
-"Thonburi Light (TrueType)"="Z:\\System\\Library\\Fonts\\Thonburi.ttc"
+"Thonburi (TrueType)"="Z:\\System\\Library\\Fonts\\Supplemental\\Thonburi.ttc"
+"Thonburi Bold (TrueType)"="Z:\\System\\Library\\Fonts\\Supplemental\\Thonburi.ttc"
+"Thonburi Light (TrueType)"="Z:\\System\\Library\\Fonts\\Supplemental\\Thonburi.ttc"
 "Times Bold (TrueType)"="Z:\\System\\Library\\Fonts\\Times.ttc"
 "Times Bold Italic (TrueType)"="Z:\\System\\Library\\Fonts\\Times.ttc"
 "Times Italic (TrueType)"="Z:\\System\\Library\\Fonts\\Times.ttc"
@@ -1207,11 +1408,19 @@ WINE REGISTRY Version 2
 "Times New Roman Bold Italic (TrueType)"="Z:\\System\\Library\\Fonts\\Supplemental\\Times New Roman Bold Italic.ttf"
 "Times New Roman Italic (TrueType)"="Z:\\System\\Library\\Fonts\\Supplemental\\Times New Roman Italic.ttf"
 "Times Roman (TrueType)"="Z:\\System\\Library\\Fonts\\Times.ttc"
+"Tinos Bold for Powerline (TrueType)"="Z:\\Users\\zoeycluff\\Library\\Fonts\\Tinos Bold for Powerline.ttf"
+"Tinos Bold Italic for Powerline (TrueType)"="Z:\\Users\\zoeycluff\\Library\\Fonts\\Tinos Bold Italic for Powerline.ttf"
+"Tinos for Powerline (TrueType)"="Z:\\Users\\zoeycluff\\Library\\Fonts\\Tinos for Powerline.ttf"
+"Tinos Italic for Powerline (TrueType)"="Z:\\Users\\zoeycluff\\Library\\Fonts\\Tinos Italic for Powerline.ttf"
 "Trattatello (TrueType)"="Z:\\System\\Library\\Fonts\\Supplemental\\Trattatello.ttf"
 "Trebuchet MS (TrueType)"="Z:\\System\\Library\\Fonts\\Supplemental\\Trebuchet MS.ttf"
 "Trebuchet MS Bold (TrueType)"="Z:\\System\\Library\\Fonts\\Supplemental\\Trebuchet MS Bold.ttf"
 "Trebuchet MS Bold Italic (TrueType)"="Z:\\System\\Library\\Fonts\\Supplemental\\Trebuchet MS Bold Italic.ttf"
 "Trebuchet MS Italic (TrueType)"="Z:\\System\\Library\\Fonts\\Supplemental\\Trebuchet MS Italic.ttf"
+"Ubuntu Mono derivative Powerline (TrueType)"="Z:\\Users\\zoeycluff\\Library\\Fonts\\Ubuntu Mono derivative Powerline.ttf"
+"Ubuntu Mono derivative Powerline Bold (TrueType)"="Z:\\Users\\zoeycluff\\Library\\Fonts\\Ubuntu Mono derivative Powerline Bold.ttf"
+"Ubuntu Mono derivative Powerline Bold Italic (TrueType)"="Z:\\Users\\zoeycluff\\Library\\Fonts\\Ubuntu Mono derivative Powerline Bold Italic.ttf"
+"Ubuntu Mono derivative Powerline Italic (TrueType)"="Z:\\Users\\zoeycluff\\Library\\Fonts\\Ubuntu Mono derivative Powerline Italic.ttf"
 "Verdana (TrueType)"="Z:\\System\\Library\\Fonts\\Supplemental\\Verdana.ttf"
 "Verdana Bold (TrueType)"="Z:\\System\\Library\\Fonts\\Supplemental\\Verdana Bold.ttf"
 "Verdana Bold Italic (TrueType)"="Z:\\System\\Library\\Fonts\\Supplemental\\Verdana Bold Italic.ttf"
@@ -1222,12 +1431,6 @@ WINE REGISTRY Version 2
 "Wingdings (TrueType)"="Z:\\System\\Library\\Fonts\\Supplemental\\Wingdings.ttf"
 "Wingdings 2 (TrueType)"="Z:\\System\\Library\\Fonts\\Supplemental\\Wingdings 2.ttf"
 "Wingdings 3 (TrueType)"="Z:\\System\\Library\\Fonts\\Supplemental\\Wingdings 3.ttf"
-"Yuanti SC Bold (TrueType)"="Z:\\System\\Library\\AssetsV2\\PreinstalledAssetsV2\\InstallWithOs\\com_apple_MobileAsset_Font6\\de2c8f9ec3bc6b016e26ba988b0455b0084d6238.asset\\AssetData\\Yuanti.ttc"
-"Yuanti SC Light (TrueType)"="Z:\\System\\Library\\AssetsV2\\PreinstalledAssetsV2\\InstallWithOs\\com_apple_MobileAsset_Font6\\de2c8f9ec3bc6b016e26ba988b0455b0084d6238.asset\\AssetData\\Yuanti.ttc"
-"Yuanti SC Regular (TrueType)"="Z:\\System\\Library\\AssetsV2\\PreinstalledAssetsV2\\InstallWithOs\\com_apple_MobileAsset_Font6\\de2c8f9ec3bc6b016e26ba988b0455b0084d6238.asset\\AssetData\\Yuanti.ttc"
-"Yuanti TC Bold (TrueType)"="Z:\\System\\Library\\AssetsV2\\PreinstalledAssetsV2\\InstallWithOs\\com_apple_MobileAsset_Font6\\de2c8f9ec3bc6b016e26ba988b0455b0084d6238.asset\\AssetData\\Yuanti.ttc"
-"Yuanti TC Light (TrueType)"="Z:\\System\\Library\\AssetsV2\\PreinstalledAssetsV2\\InstallWithOs\\com_apple_MobileAsset_Font6\\de2c8f9ec3bc6b016e26ba988b0455b0084d6238.asset\\AssetData\\Yuanti.ttc"
-"Yuanti TC Regular (TrueType)"="Z:\\System\\Library\\AssetsV2\\PreinstalledAssetsV2\\InstallWithOs\\com_apple_MobileAsset_Font6\\de2c8f9ec3bc6b016e26ba988b0455b0084d6238.asset\\AssetData\\Yuanti.ttc"
 "Zapf Dingbats (TrueType)"="Z:\\System\\Library\\Fonts\\ZapfDingbats.ttf"
 "Zapfino (TrueType)"="Z:\\System\\Library\\Fonts\\Supplemental\\Zapfino.ttf"
 
@@ -1244,3 +1447,10 @@ WINE REGISTRY Version 2
 "LeftOptionIsAlt"="Y"
 "RightCommandIsCtrl"="Y"
 "RightOptionIsAlt"="Y"
+
+
+
+[Software\\Wine\\X11 Driver]
+"Decorated"="N"
+"Managed"="N"
+

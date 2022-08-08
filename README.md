@@ -14,5 +14,6 @@ type W in the menu and hit enter, it in theory should handle the rest.
 
 # Special Thanks
 <h6><a href="https://github.com/Gcenx">Gcenx</a> - for keeping wine single-handedly alive on macOS and helping get the installer script working with his custom winetricks<br>
+<h6><a href=https://www.youtube.com/c/Indriana-sims"> - Indriana:</a>  for her wonderful Sims 4 setup guide and testing the Origin portion of this.<br>
 
 <div align="center"><b>The Sims 4 and Origin are registered trademarks of Electronic Arts</b></div>
