@@ -60,7 +60,7 @@ if [ $platform == origin ]; then
   cp -f ${PWD}/configs/Origin.plist ${PWD}/${TARGET_NAME}/Contents/Info.plist
 elif [ $platform == steam ]; then
   echo "===> Installing Steam, This may take a while."
-  winetricks -q -f origin steam
+  winetricks -q -f steam
   cp -f ${PWD}/configs/Steam.plist ${PWD}/${TARGET_NAME}/Contents/Info.plist
 fi
 
