@@ -10,12 +10,12 @@ echo "#########################################################################"
 echo "################################ ${TARGET_NAME} ##############################"
 echo "#########################################################################"
 echo ""
-echo "==> Downloading Wrapper Template"
+echo "===> Downloading Wrapper Template"
 curl -LJO --progress-bar https://github.com/The-Wineskin-Project/Wrapper/releases/download/${WRAPPER_VERSION}/Wineskin-${WRAPPER_VERSION}.app.tar.xz
 mkdir -p ${PWD}/${TARGET_NAME}
 tar -xf Wineskin-${WRAPPER_VERSION}.app.tar.xz --strip-components=1 -C ${PWD}/${TARGET_NAME}; rm ${PWD}/Wineskin-${WRAPPER_VERSION}.app.tar.xz
 echo ""
-echo "==> Downloading Engine"
+echo "===> Downloading Engine"
 curl -LJO --progress-bar https://github.com/The-Wineskin-Project/Engines/releases/download/v1.0/WS11WineCX64Bit${ENGINE_VERSION}.tar.xz
 mkdir -p ${PWD}/${TARGET_NAME}/Contents/SharedSupport/wine
 tar -xf WS11WineCX64Bit${ENGINE_VERSION}.tar.xz --strip-components=1 -C ${PWD}/${TARGET_NAME}/Contents/SharedSupport/wine; rm ${PWD}/WS11WineCX64Bit${ENGINE_VERSION}.tar.xz
@@ -43,9 +43,13 @@ echo "===> Creating wineprefix"
 wineboot
 
 echo ""
-echo "===> Do you own Sims4 through Steam or Origin?"
+echo "===> Installing required registry keys for gshade"
+cp -f ${PWD}/configs/user.reg $WINEPREFIX
+
+echo ""
+echo "===> Do you own The Sims 4 through Steam or Origin?"
 while true; do
-  read -p "Please Type the Origin or Steam and hit Enter: " -r platform
+  read -p "Please Type Origin or Steam and hit Enter: " -r platform
   case $platform in
     Origin | origin ) platform=origin; break;;
     Steam | steam ) platform=steam; break;;
@@ -55,11 +59,11 @@ done
 
 echo ""
 if [ $platform == origin ]; then
-  echo "===> Installing Origin, This may take a while."
+  echo "===> Installing Origin, this may take a while."
   winetricks -q -f origin
   cp -f ${PWD}/configs/Origin.plist ${PWD}/${TARGET_NAME}/Contents/Info.plist
 elif [ $platform == steam ]; then
-  echo "===> Installing Steam, This may take a while."
+  echo "===> Installing Steam, this may take a while."
   winetricks -q -f steam
   cp -f ${PWD}/configs/Steam.plist ${PWD}/${TARGET_NAME}/Contents/Info.plist
 fi
