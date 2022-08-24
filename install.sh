@@ -43,10 +43,6 @@ echo "===> Creating wineprefix"
 wineboot
 
 echo ""
-echo "===> Installing required registry keys for gshade"
-cp -f ${PWD}/configs/user.reg $WINEPREFIX
-
-echo ""
 echo "===> Do you own The Sims 4 through Steam or Origin?"
 while true; do
   read -p "Please Type Origin or Steam and hit Enter: " -r platform
@@ -68,11 +64,14 @@ elif [ $platform == steam ]; then
   cp -f ${PWD}/configs/Steam.plist ${PWD}/${TARGET_NAME}/Contents/Info.plist
 fi
 
+override_dll d3d9
+
 echo ""
 echo "===> Moving Sims4.app to your Applications folder"
-rsync -l -a -r ${PWD}/${TARGET_NAME}/ /Applications/${TARGET_NAME}
+mkdir -p $HOME/Applications
+rsync -l -a -r ${PWD}/${TARGET_NAME}/ $HOME/Applications/${TARGET_NAME}
 rm -rf ${TARGET_NAME}
 
 echo ""
 echo "===> launching Sims4.app"
-open -a /Applications/Sims4.app
+open -a $HOME/Applications/Sims4.app
