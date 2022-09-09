@@ -43,10 +43,6 @@ echo "===> Creating wineprefix"
 wineboot
 
 echo ""
-echo "===> Installing required registry keys for gshade"
-cp -f ${PWD}/configs/user.reg $WINEPREFIX
-
-echo ""
 echo "===> Do you own The Sims 4 through Steam or Origin?"
 while true; do
   read -p "Please Type Origin or Steam and hit Enter: " -r platform
