@@ -70,9 +70,9 @@ fi
 
 echo ""
 echo "===> Moving Sims4.app to your Applications folder"
-rsync -l -a -r ${PWD}/${TARGET_NAME}/ /Applications/${TARGET_NAME}
+rsync -l -a -r ${PWD}/${TARGET_NAME}/ ~/Applications/${TARGET_NAME}
 rm -rf ${TARGET_NAME}
 
 echo ""
 echo "===> launching Sims4.app"
-open -a /Applications/Sims4.app
+open -a ~/Applications/Sims4.app
