@@ -11,6 +11,16 @@ Open Terminal and copy/paste the following command (entire line)
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Zoeyrae/gshade-on-mac/master/Gshade_on_mac.sh)"
 ```
 type W in the menu and hit enter, it in theory should handle the rest.
+# Known broken Sims4 Mods/Custom Content (Will cause the game to crash. If you find more please open an issue and let me know to add to the list!)
+* VAIN - Ashton Eyebrows
+* VAIN Chocolate Addict Gloss Collection
+* VAIN Sabrina Eyebrows
+* VAIN Smokey Eyes Palette
+* VAIN The Superficial collection of glosses
+* VAIN The Wet Collection (Glosses)
+* VAIN Perfect Brow 01
+* VAIN perfect Brow 02
+* VAIN | Kim Face
 
 # Special Thanks
 <h6><a href="https://github.com/Gcenx">Gcenx</a> - for keeping wine single-handedly alive on macOS and helping get the installer script working with his custom winetricks<br>
