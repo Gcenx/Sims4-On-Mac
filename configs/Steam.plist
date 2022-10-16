@@ -77,7 +77,7 @@
 	<key>NSRemovableVolumesUsageDescription</key>
 	<string>This app needs access to Removable Volumes</string>
 	<key>Program Flags</key>
-	<string>"-udpforce -allosarches -cef-force-32bit"</string>
+	<string>-noreactlogin -udpforce -allosarches -cef-force-32bit</string>
 	<key>Program Name and Path</key>
 	<string>/Program Files (x86)/Steam/Steam.exe</string>
 	<key>Resolution</key>
@@ -107,7 +107,7 @@
 	<key>Use RandR</key>
 	<false/>
 	<key>WINEDEBUG</key>
-	<string>-esync,-plugplay</string>
+	<string>-esync,-plugplay,+loaddll</string>
 	<key>Winetricks disable logging</key>
 	<string>1</string>
 	<key>Winetricks force</key>

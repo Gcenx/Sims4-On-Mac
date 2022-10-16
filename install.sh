@@ -35,16 +35,12 @@ echo "==> Downloading winetricks."
 curl --progress-bar -o ${PWD}/${TARGET_NAME}/Wineskin.app/Contents/Resources/winetricks https://raw.githubusercontent.com/The-Wineskin-Project/winetricks/macOS/src/winetricks
 chmod +x ${PWD}/${TARGET_NAME}/Wineskin.app/Contents/Resources/winetricks &>/dev/null
 
-
-
-
 echo ""
 echo "===> Creating wineprefix"
 wineboot
 
-echo ""
-echo "===> Installing required registry keys for gshade"
-cp -f ${PWD}/configs/user.reg $WINEPREFIX
+# Only required for pre-wine-6.3
+override_dll d3d9
 
 echo ""
 echo "===> Do you own The Sims 4 through Steam or Origin?"
@@ -64,7 +60,7 @@ if [ $platform == origin ]; then
   cp -f ${PWD}/configs/Origin.plist ${PWD}/${TARGET_NAME}/Contents/Info.plist
 elif [ $platform == steam ]; then
   echo "===> Installing Steam, this may take a while."
-  winetricks -q -f steam
+  winetricks -q -f steam origin
   cp -f ${PWD}/configs/Steam.plist ${PWD}/${TARGET_NAME}/Contents/Info.plist
 fi
 

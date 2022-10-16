@@ -107,7 +107,7 @@
 	<key>Use RandR</key>
 	<false/>
 	<key>WINEDEBUG</key>
-	<string>-esync,-plugplay</string>
+	<string>-esync,-plugplay,+loaddll</string>
 	<key>Winetricks disable logging</key>
 	<string>1</string>
 	<key>Winetricks force</key>
